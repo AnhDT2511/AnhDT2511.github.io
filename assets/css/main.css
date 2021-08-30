@@ -982,6 +982,9 @@ svg.menu-icon-house {
 .post-card {
   position: relative;
   margin: .5rem;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  transition: .5s;
 }
 
 .post-card-image {
@@ -1009,7 +1012,8 @@ svg.menu-icon-house {
 }
 
 .post-card:hover .post-card-image::after {
-  background: rgba(0, 0, 0, 0);
+  /* background: rgba(0, 0, 0, 0); */
+  border: 2px solid #646464;
 }
 
 .post-card:hover .post-card-body {
@@ -1018,11 +1022,13 @@ svg.menu-icon-house {
 
 .post-card-body {
   position: absolute;
-  left: 5%;
+  left: 0;
   bottom: 5%;
   background-color: #00000099;
-  padding-left: 5px;
-  width: 95%
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 6px;
+  width: 100%
 }
 
 .post-card-tags {
@@ -1205,8 +1211,8 @@ svg.menu-icon-house {
 }
 
 .meta-pre {
-  padding-left: 5px;
-  padding-right: 5px
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .meta-sep::before {
