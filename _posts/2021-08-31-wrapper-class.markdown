@@ -11,10 +11,6 @@ author: Tuấn Anh
 description: ""
 ---
 
-## Wrapper class
-
-<br />
-
 Trong Java, kiểu dữ liệu được chia làm hai loại:
 
 - Kiểu dữ liệu nguyên thuỷ (**Primitive data types**)
@@ -26,13 +22,11 @@ Ví dụ:
 - `int`, `double` là kiểu nguyên thủy
 - `Integer`, `Double` là kiểu không nguyên thuỷ
 
-<br />
 
 ### I. Primitive data types
 
 Các bạn có thể đọc lại bài sau [Data types](https://github.com/AnestAcademy/Course-Java-OOP/blob/master/03.%20Data%20types.md)
 
-<br />
 
 ### II. Non-primitive data types
 
@@ -48,17 +42,13 @@ Trong java có 3 kiểu dữ liệu đối tượng:
 
 *Chúng ta sẽ tìm hiểu chi tiết những đối tượng này ở những bài sau.*
 
-<br />
 
 #### 2. Wrapper class
-
-<br />
 
 <p align="center">
   <img src="https://github.com/AnestAcademy/Course-Java-OOP/blob/master/images/wrapper-class.png">
 </p>
 
-<br />
 
 Lớp Wrapper trong java cung cấp cơ chế để chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng và ngược lại từ đối tượng thành kiểu dữ liệu nguyên thủy.
 
@@ -73,7 +63,6 @@ Lớp Wrapper trong java cung cấp cơ chế để chuyển đổi kiểu dữ 
 |  7 | float	  | Float     |
 |  8 | double   | Double    |
 
-<br />
 
 Ví dụ chuyển đổi `int` thành `Integer`:
 {% highlight java %}
@@ -87,7 +76,6 @@ public class SampleClass {
 }
 {% endhighlight %}
 
-<br />
 
 #### Tại sao phải chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng?
 
@@ -95,33 +83,27 @@ Như chúng ta đã tìm hiểu về đối tượng, thì một đối tượng
 
 Sau khi một giá trị nguyên thủy được chuyển đổi thành đối tượng, nó có thể gọi được các phương thức của `class` đó ra để sử dụng.
 
-<br />
 
 <p align="center">
   <img src="https://github.com/AnestAcademy/Course-Java-OOP/blob/master/images/wrapper-class-3.jpg">
 </p>
 
-<br />
 
 > Nếu bạn thử lấy `num1` gọi các phương thức của **class  Integer** thì chương trình sẽ báo lỗi vì `num1` là kiểu dữ liệu nguyên thủy. Nhưng sau khi chúng ta chuyển đổi `num1` thành đối tượng `num2` bằng cách sử dụng phương thức `valueOf()` được cung cấp sẵn trong **class Integer** thì `num2` có thể gọi các phương thức của **class Integer** một cách bình thường.
 
-<br />
 
 *Vì trong Java cung cấp rất nhiều phương thức có sẵn đi theo từng `class` nên chúng ta có thể sử dụng phím tắt `ctrl + space` trong IDE để xem nhanh danh sách phương thức được cung cấp của `class` đó.*
 
-<br />
 
 <p align="center">
   <img src="https://github.com/AnestAcademy/Course-Java-OOP/blob/master/images/wrapper-class-1.jpg">
 </p>
 
-<br />
 
 <p align="center">
   <img src="https://github.com/AnestAcademy/Course-Java-OOP/blob/master/images/wrapper-class-2.jpg">
 </p>
 
-<br />
 
 Ví dụ chúng ta cần tìm số `int` lớn nhất bằng bao nhiêu? Trong **class Integer** đã có sẵn thuộc tính `MAX_VALUE` lưu trữ giá trị lớn nhất của `int`, chúng ta chỉ cần gọi nó ra là xong, không cần làm gì hay tính toán gì thêm.
 
@@ -139,9 +121,8 @@ Kết quả nhận được:
 2147483647
 ```
 
-<br />
 
-##  
+###
 
 © Copyright
 > ANEST LEARNING  
