@@ -1459,8 +1459,7 @@ tweet a {
           border-top-left-radius: 20px;
   -webkit-border-top-right-radius: 20px;
           border-top-right-radius: 20px;
-  -webkit-box-shadow: 0px 2px 4px var(--shadow);
-          box-shadow: 0px 2px 4px var(--shadow);
+  border: 1px solid #30363d;
   max-width: 1000px;
 }
 /* full width image in posts */
