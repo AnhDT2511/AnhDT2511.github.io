@@ -23,7 +23,8 @@ html {
   --font1-bold:       600;
   --font2-light:      200;
   --font2-regular:    400;
-  --font2-bold:       700;
+  --font2-bold:       500;
+  --page-content-border: #b4b3a7;
 }
 
 html[data-theme="dark"]  {
@@ -40,6 +41,7 @@ html[data-theme="dark"]  {
   --background:   #0D1117;
   --shadow:       rgba(0,0,0,.3);
   --github:       #000;
+  --page-content-border: #30363d;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1134,6 +1136,7 @@ a.tag.side {
 .share-icons {
   display: inline;
   vertical-align: middle;
+  margin-top: 20px;
 }
 .share-icons a {
   display:inline-block;
@@ -1456,7 +1459,7 @@ tweet a {
   background-color: var(--background);
   padding: 25px;
   border-radius: 20px;
-  border: 1px solid #30363d;
+  border: 1px solid var(--page-content-border);
   max-width: 1000px;
 }
 /* full width image in posts */
