@@ -1011,13 +1011,11 @@ svg.menu-icon-house {
 }
 
 .post-card:hover .post-card-image::after {
-  /* background: rgba(255, 255, 255, 0); */
-  transform: translateY(8px);
+  background: rgba(255, 255, 255, 0);
 }
 
 .post-card:hover .post-card-body {
-  /* background-color: #ffffffbf; */
-  transform: translateY(8px);
+  background: rgb(255, 255, 255);
 }
 
 .post-card-body {
