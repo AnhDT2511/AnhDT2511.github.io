@@ -44,7 +44,7 @@ html[data-theme="dark"] {
   /* main color */
   --main-dim: #333D47;
   /* dimmed version of main color */
-  --text: #CBCCCD;
+  --text: #C9D1D9;
   --grey1: #B1B1AE;
   --grey2: #959692;
   --grey3: #7C7E7B;
@@ -1402,7 +1402,7 @@ a.tag.side {
     position: sticky;
     top: 32px;
     width: 115px;
-    margin-left: -135px;
+    margin-left: -145px;
     float: left;
   }
   .sidebar.side .tag-cloud {
