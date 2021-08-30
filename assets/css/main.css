@@ -12,6 +12,7 @@ html {
   --main-dim: #879dab;
   /* dimmed version of main color */
   --text: #2B323B;
+  --color-text-link: #0969DA;
   --grey1: #5F5E58;
   --grey2: #8D897C;
   --grey3: #B4B3A7;
@@ -45,6 +46,7 @@ html[data-theme="dark"] {
   --main-dim: #333D47;
   /* dimmed version of main color */
   --text: #C9D1D9;
+  --color-text-link: #58A6FF;
   --grey1: #B1B1AE;
   --grey2: #959692;
   --grey3: #7C7E7B;
@@ -518,7 +520,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font2);
-  color: var(--accent-dark);
+  color: var(--text);
   font-weight: 400;
 }
 
@@ -534,7 +536,7 @@ img {
 }
 
 a {
-  color: var(--text);
+  color: var(--color-text-link);
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
