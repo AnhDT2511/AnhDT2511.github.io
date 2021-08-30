@@ -70,7 +70,7 @@ Lớp Wrapper trong java cung cấp cơ chế để chuyển đổi kiểu dữ 
 <br />
 
 Ví dụ chuyển đổi `int` thành `Integer`:
-```java
+{% highlight java %}
 public class SampleClass {
 
     public static void main(String[] args) {
@@ -79,7 +79,7 @@ public class SampleClass {
         Integer num2 = Integer.valueOf(num1);
     }
 }
-```
+{% endhighlight %}
 
 <br />
 
