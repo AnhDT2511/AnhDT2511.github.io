@@ -982,8 +982,7 @@ svg.menu-icon-house {
 .post-card {
   position: relative;
   margin: .5rem;
-  border-radius: .5rem;
-  border: 2px solid transparent;
+  border-radius: .75rem;
   transition: .5s;
 }
 
@@ -994,7 +993,7 @@ svg.menu-icon-house {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: .5rem;
+  border-radius: .75rem;
 }
 
 .post-card-image::after {
@@ -1008,12 +1007,12 @@ svg.menu-icon-house {
   background: rgba(255, 255, 255, .15);
   -webkit-transition: all .5s;
   transition: all .5s;
-  border-radius: .5rem;
+  border-radius: .75rem;
 }
 
 .post-card:hover .post-card-image::after {
   /* background: rgba(0, 0, 0, 0); */
-  border: 2px solid #646464;
+  transform: scale(1.05);
 }
 
 .post-card:hover .post-card-body {
