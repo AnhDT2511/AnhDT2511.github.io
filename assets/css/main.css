@@ -31,6 +31,7 @@ html {
   --font2-regular: 400;
   --font2-bold: 500;
   --page-content-border: #b4b3a7;
+  --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
 }
 
 html[data-theme="dark"] {
@@ -52,6 +53,7 @@ html[data-theme="dark"] {
   --shadow: rgba(0, 0, 0, .3);
   --github: #000;
   --page-content-border: #30363d;
+  --background-image: linear-gradient(to right, #16222a, #3a6073);
 }
 
 
@@ -501,6 +503,7 @@ body {
   font-family: var(--font1);
   color: var(--text);
   margin: 0;
+  background-image: var(--background-image);
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
