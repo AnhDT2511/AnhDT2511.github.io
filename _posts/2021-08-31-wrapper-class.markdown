@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  "Wrapper class"
-date:   2021-08-31 12:30:14 +0700
-categories: test
+read_time: true
+show_date: true
+title: "Wrapper class"
+date: 2021-08-31
+img: posts/20210402/post7-header.webp
+tags: [java, oop]
+category: oop
+author: Tuấn Anh
+description: ""
 ---
 
 ## Wrapper class
