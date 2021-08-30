@@ -33,6 +33,7 @@ html {
   --page-content-border: #b4b3a7;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+  --highlighter-bg: #eff1f3;
 }
 
 html[data-theme="dark"] {
@@ -49,13 +50,14 @@ html[data-theme="dark"] {
   --grey2: #959692;
   --grey3: #7C7E7B;
   --grey4: #21252b;
-  --grey5: #3B3D40;
+  --grey5: #343b43;
   /* --background: #18191a; */
   --background: #0D1117;
   --shadow: rgba(0, 0, 0, .3);
   --github: #000;
   --page-content-border: #30363d;
   --background-image: linear-gradient(to right, #16222a, #3a6073);
+  --highlighter-bg: #343942;
 }
 
 
@@ -1665,12 +1667,13 @@ div.tag-cloud {
 /* = = = = = = = = = = Code = = = = = = = = = = */
 
 .highlighter-rouge {
-  color: var(--main);
+  /* color: var(--main); */
   border: none;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   padding: 0.1rem 0.5rem;
   line-height: 1.1;
+  background-color: var(--highlighter-bg);
 }
 
 
