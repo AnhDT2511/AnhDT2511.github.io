@@ -32,6 +32,7 @@ html {
   --font2-bold: 500;
   --page-content-border: #b4b3a7;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
+  --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
 }
 
 html[data-theme="dark"] {
@@ -1748,6 +1749,7 @@ tweet a {
   padding: 25px;
   border-radius: 20px;
   border: 1px solid var(--page-content-border);
+  background-image: var(--background-image-page-content);
   max-width: 1000px;
 }
 
