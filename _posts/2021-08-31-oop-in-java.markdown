@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Test 1!"
-date:   2021-08-31 12:30:14 +0700
+title:  "OOP in Java"
+date:   2021-08-31 12:30:00 +0700
 categories: test
 ---
 
