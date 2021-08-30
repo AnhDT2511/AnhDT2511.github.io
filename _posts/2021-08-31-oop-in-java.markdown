@@ -13,17 +13,13 @@ description: "ELI5: what is a neural network."
 
 ## OOP in Java
 
-<br />
-
 Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** là một trong những kỹ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python... đều hỗ trợ OOP.
 
-<br />
 
 ### I. OOP là gì?
 
 **Lập trình hướng đối tượng (OOP)** là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code - trừu tượng hóa các đối tượng trong cuộc sống vào trong code để tương tác - tính toán - xử lý.
 
-<br />
 
 ### II. OOP trong lập trình
 
@@ -35,7 +31,6 @@ Như trong cuộc sống, bạn chỉ cần có một bản thiết kế nhưng 
 
 Mỗi chiếc ô tô tạo ra được xem là một thực thể (có thực, đã được tạo ra trong thực tế) thể hiện của bản thiết kế.
 
-<br />
 
 #### 1. Class
 
@@ -48,7 +43,6 @@ Một `class` là một kiểu dữ liệu (data type) bao gồm:
 
 Khác với kiểu dữ liệu thông thường (nguyên thủy), một `class` là một đơn vị (trừu tượng) bao gồm sự kết hợp giữa các `thuộc tính` và các `phương thức`. 
 
-<br />
 
 #### 2. Object
 
@@ -56,7 +50,6 @@ Khác với kiểu dữ liệu thông thường (nguyên thủy), một `class` 
 
 > Trong lập trình, mặc định các `object` là khác nhau cho dù có cùng các giá trị `thuộc tính` và `phương thức` giống nhau.
 
-<br />
 
 ### III. Đặc trưng cơ bản của OOP
 
@@ -79,7 +72,6 @@ Khái niệm cơ bản:
 
 Trong các bài sau, chúng ta sẽ đi sâu và giải thích rõ hơn từng tính chất cụ thể ở trên và thực hiện code ví dụ minh họa - để có thể hiểu được những tính chất trên được thể hiện trong code như thế nào.
 
-<br />
 
 ### IV. Các ưu điểm của lập trình hướng đối tượng
 
@@ -87,9 +79,8 @@ Trong các bài sau, chúng ta sẽ đi sâu và giải thích rõ hơn từng t
 - Đảm bảo rút ngắn thời gian xây dựng hệ thống và tăng năng suất thực hiện.
 - Sự xuất hiện của 2 khái niệm mới là `class` và `object` chính là đặc trưng của phương pháp lập trình hướng đối tượng. Nó đã giải quyết được các khuyết điểm của phương pháp lập trình hướng cấu trúc để lại. Ngoài ra 2 khái niệm này đã giúp biểu diễn tốt hơn thế giới thực trên máy tính.
 
-<br />
 
-###  
+###
 
 © Copyright
 > ANEST LEARNING  
