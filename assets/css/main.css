@@ -475,6 +475,10 @@ template {
   display: none;
 }
 
+figure {
+  margin:  0;
+}
+
 
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
 
