@@ -11,7 +11,6 @@ author: Tuấn Anh
 description: "ELI5: what is a neural network."
 ---
 
-
 Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** là một trong những kỹ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python... đều hỗ trợ OOP.
 
 
