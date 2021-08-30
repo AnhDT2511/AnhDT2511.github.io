@@ -1012,7 +1012,7 @@ svg.menu-icon-house {
 
 .post-card:hover .post-card-image::after {
   /* background: rgba(0, 0, 0, 0); */
-  transform: scale(1.05);
+  transform: translateY(5px);
 }
 
 .post-card:hover .post-card-body {
