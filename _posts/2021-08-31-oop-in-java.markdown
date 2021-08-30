@@ -2,8 +2,8 @@
 layout: post
 read_time: true
 show_date: true
-title:  "OOP in Java"
-date:   2021-08-31
+title: "OOP in Java"
+date: 2021-08-31
 img: posts/20210402/post7-header.webp
 tags: [java, oop]
 category: oop
