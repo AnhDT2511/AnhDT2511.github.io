@@ -504,7 +504,7 @@ body {
   font-family: var(--font1);
   color: var(--text);
   margin: 0;
-  background-image: var(--background-image);
+  /* background-image: var(--background-image); */
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1749,7 +1749,7 @@ tweet a {
   padding: 25px;
   border-radius: 20px;
   border: 1px solid var(--page-content-border);
-  background-image: var(--background-image-page-content);
+  /* background-image: var(--background-image-page-content); */
   max-width: 1000px;
 }
 
