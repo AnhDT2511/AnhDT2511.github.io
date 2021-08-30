@@ -1097,7 +1097,7 @@ svg.menu-icon-house {
 
 .main-footer {
   padding: 5px 15px 5px 15px;
-  background-color: #0d1117;
+  background-color: var(--background);
   border: 1px solid var(--page-content-border);
 }
 
@@ -1128,7 +1128,7 @@ svg.menu-icon-house {
 .copyright {
   text-align: center;
   color: var(--grey4);
-  font-size: 0.6em;
+  font-size: 14px;
   opacity: 0.75;
 }
 
@@ -1154,7 +1154,7 @@ svg.menu-icon-house {
 }
 
 .footer-wrapper a:hover {
-  opacity: 0.6
+  color: var(--accent);
 }
 
 @media (max-width:640px) {
