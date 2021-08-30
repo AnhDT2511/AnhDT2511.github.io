@@ -754,7 +754,7 @@ svg.menu-icon-house {
       -ms-transform: translate(0, -100%) scale(0, 0);
           transform: translate(0, -100%) scale(0, 0);
   max-height: 100vh;
-  overflow: scroll;
+  overflow: auto;
 }
 .search-grid {
   width: 80%;
@@ -834,6 +834,7 @@ svg.menu-icon-house {
 
 .post-card {
   position: relative;
+  margin: .5rem;
 }
 .post-card-image {
   display: block;
@@ -842,6 +843,7 @@ svg.menu-icon-house {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: .5rem;
 }
 .post-card-image::after {
   content: "";
@@ -854,6 +856,7 @@ svg.menu-icon-house {
   background: rgba(255,255,255,.15);
   -webkit-transition: all .5s;
   transition: all .5s;
+  border-radius: .5rem;
 }
 .post-card:hover .post-card-image::after{
   background: rgba(0, 0, 0, 0);
