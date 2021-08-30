@@ -726,7 +726,7 @@ svg {
   z-index: 10;
   width: 300px;
   height: 100%;
-  background-color: #27292c;
+  background-color: var(--background);
   padding: 25px 30px;
   -webkit-transform: translate3d(-300px, 0, 0);
   transform: translate3d(-300px, 0, 0);
