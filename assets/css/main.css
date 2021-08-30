@@ -178,7 +178,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 
@@ -497,8 +497,7 @@ body {
 html {
   line-height: 1.75;
   letter-spacing: 0.002em;
-  font-size: 1.125rem;
-  font-weight: 300;
+  font-size: 17px;
 }
 
 body {
