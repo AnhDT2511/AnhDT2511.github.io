@@ -651,8 +651,8 @@ svg {
 }
 
 .wrapper {
-  width: 960px;
-  max-width: 90%;
+  width: 1000px;
+  max-width: 100%;
   margin: 0.75em auto 0.75em;
   position: relative;
 }
@@ -1011,11 +1011,13 @@ svg.menu-icon-house {
 }
 
 .post-card:hover .post-card-image::after {
-  background: rgba(255, 255, 255, 0);
+  /* background: rgba(255, 255, 255, 0); */
+  transform: translateY(8px);
 }
 
 .post-card:hover .post-card-body {
-  background-color: #000000bf;
+  /* background-color: #ffffffbf; */
+  transform: translateY(8px);
 }
 
 .post-card-body {
