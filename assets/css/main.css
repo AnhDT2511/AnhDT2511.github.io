@@ -1127,7 +1127,7 @@ svg.menu-icon-house {
 
 .copyright {
   text-align: center;
-  color: var(--grey4);
+  color: var(--color-text-primary);
   font-size: 14px;
   opacity: 0.75;
 }
