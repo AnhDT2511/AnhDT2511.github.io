@@ -20,15 +20,12 @@ html {
   --grey5: #eceef0;
   --background: #ffffff;
   --github: #333;
-  --font1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font2: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /* headers and titles   */
-  --font1-light: 400;
-  --font1-regular: 400;
-  --font1-bold: 500;
-  --font2-light: 200;
-  --font2-regular: 400;
-  --font2-bold: 500;
+  --font-weight-2: 200;
+  --font-weight-3: 300;
+  --font-weight-4: 400;
+  --font-weight-5: 500;
   --page-content-border: #b4b3a7;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
@@ -500,7 +497,7 @@ html {
 }
 
 body {
-  font-family: var(--font1);
+  font-family: var(--font);
   color: var(--color-text-primary);
   margin: 0;
   /* background-image: var(--background-image); */
@@ -516,14 +513,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font2);
+  font-family: var(--font);
   color: var(--color-text-primary);
   font-weight: 400;
 }
 
 h1 {
   font-size: 4rem;
-  font-weight: var(--font2-regular);
+  font-weight: var(--font-weight-4);
   line-height: 1;
 }
 
@@ -656,7 +653,7 @@ svg {
 .wrapper {
   width: 1000px;
   max-width: 100%;
-  margin: 0.75em auto 0.75em;
+  margin: 0.75em auto 1.5em;
   position: relative;
 }
 
@@ -685,7 +682,7 @@ svg {
 /* = = = = = = = = = = Header = = = = = = = = = = */
 
 .main-header {
-  font-family: var(--font2), sans-serif;
+  font-family: var(--font), sans-serif;
   padding: 15px 0;
   background-color: var(--background);
 }
@@ -716,7 +713,7 @@ svg {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 27px;
-  font-weight: var(--font1-light);
+  font-weight: var(--font-weight-4);
   color: var(--accent-dark);
 }
 
@@ -748,7 +745,7 @@ svg {
   padding: 15px 0;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: var(--font2-regular);
+  font-weight: var(--font-weight-4);
   font-size: 18px;
   color: var(--main);
 }
@@ -935,10 +932,10 @@ svg.menu-icon-house {
 }
 
 .results-search li a {
-  font-family: var(--font2);
+  font-family: var(--font);
   text-decoration: none;
   color: var(--accent-dark);
-  font-weight: var(--font2-bold);
+  font-weight: var(--font-weight-5);
 }
 
 .results-search li a:hover {
@@ -947,7 +944,7 @@ svg.menu-icon-house {
 }
 
 .results-search>* p {
-  font-weight: var(--font1-light);
+  font-weight: var(--font-weight-4);
   color: var(--grey3);
   font-size: .75em;
   line-height: 1.3;
@@ -1054,8 +1051,8 @@ svg.menu-icon-house {
 
 .post-card-link {
   text-decoration: none;
-  font-family: var(--font2), sans-serif;
-  font-weight: var(--font2-bold);
+  font-family: var(--font), sans-serif;
+  font-weight: var(--font-weight-5);
   text-transform: uppercase;
   color: white;
 }
@@ -1082,7 +1079,7 @@ svg.menu-icon-house {
 
 .pagination .previous,
 .pagination .next {
-  font-family: var(--font2);
+  font-family: var(--font);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -1100,7 +1097,8 @@ svg.menu-icon-house {
 
 .main-footer {
   padding: 5px 15px 5px 15px;
-  background-color: var(--main-dim);
+  background-color: #0d1117;
+  border: 1px solid var(--page-content-border);
 }
 
 .footer-wrapper {
@@ -1148,11 +1146,11 @@ svg.menu-icon-house {
 }
 
 .footer-nav a {
-  color: var(--grey4);
+  color: var(--color-text-link);
   text-decoration: none;
   font-size: 14px;
-  font-weight: var(--font2-bold);
-  font-family: var(--font2);
+  font-weight: var(--font-weight-5);
+  font-family: var(--font);
 }
 
 .footer-wrapper a:hover {
@@ -1438,7 +1436,7 @@ aside.toc {
   line-height: 1.4;
   font-size: .5em;
   font-family: sans-serif;
-  font-weight: var(--font1-bold);
+  font-weight: var(--font-weight-5);
   width: max-content;
 }
 
@@ -1505,7 +1503,7 @@ path.fa-secondary {
 
 .toc-submenu-1 a {
   color: var(--grey1);
-  font-weight: var(--font1-regular);
+  font-weight: var(--font-weight-4);
 }
 
 .toc-item-2,
@@ -1580,8 +1578,8 @@ div.tag-cloud {
   background: var(--grey5);
   border-radius: 15px;
   padding: 3px 15px;
-  font-family: var(--font2);
-  font-weight: var(--font2-regular);
+  font-family: var(--font);
+  font-weight: var(--font-weight-4);
   display: block;
   text-transform: lowercase
 }
@@ -1640,7 +1638,7 @@ div.tag-cloud {
 }
 
 .github-button a {
-  font-family: var(--font2);
+  font-family: var(--font);
   white-space: nowrap;
   text-decoration: none;
 }
@@ -1680,9 +1678,9 @@ tweet {
   padding-left: 1em;
   padding-right: 0.5em;
   margin-left: 2.5em;
-  font-family: var(--font2);
+  font-family: var(--font);
   background: var(--grey5);
-  font-weight: var(--font2-bold);
+  font-weight: var(--font-weight-5);
   margin-bottom: 2em;
   font-size: .9em;
 }
@@ -1787,8 +1785,8 @@ img+br+small {
 }
 
 .header-page h1 {
-  font-weight: var(--font2-regular);
-  font-size: 3.25rem;
+  font-weight: var(--font-weight-4);
+  font-size: 3rem;
   text-align: left;
   margin: 0 0 10px;
   color: var(--color-text-primary)
@@ -1798,7 +1796,7 @@ img+br+small {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: var(--font1-light);
+  font-weight: var(--font-weight-4);
 }
 
 .post-page-meta {
@@ -1857,7 +1855,7 @@ img+br+small {
 }
 
 .recent-item:first-child {
-  margin-left: -1%;
+  margin-left: -2%;
 }
 
 .recent-item:hover .recent-item-img::after {
@@ -1873,7 +1871,7 @@ img+br+small {
   display: inline-block;
   width: 24%;
   height: 150px;
-  margin-left: 1%;
+  margin-left: 2%;
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1903,8 +1901,8 @@ img+br+small {
   bottom: 5%;
   width: 100%;
   font-size: 12px;
-  font-family: var(--font2), sans-serif;
-  font-weight: var(--font2-bold);
+  font-family: var(--font), sans-serif;
+  font-weight: var(--font-weight-5);
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -1922,7 +1920,7 @@ img+br+small {
 }
 
 .page-subtitle {
-  font-weight: var(--font2-regular);
+  font-weight: var(--font-weight-4);
   text-align: center;
   margin: 0 0 30px;
 }
@@ -2128,7 +2126,7 @@ img+br+small {
 }
 
 .about-header .subtitle {
-  font-weight: var(--font1-light);
+  font-weight: var(--font-weight-4);
   margin: 0;
 }
 
@@ -2186,8 +2184,8 @@ img+br+small {
 .list-group-title a {
   color: var(--color-text-primary);
   text-transform: lowercase;
-  font-family: var(--font2);
-  font-weight: var(--font2-bold);
+  font-family: var(--font);
+  font-weight: var(--font-weight-5);
 }
 
 .list-item {
@@ -2199,8 +2197,8 @@ img+br+small {
   text-decoration: none;
   color: var(--main);
   font-size: 1.25em;
-  font-weight: var(--font2-light);
-  font-family: var(--font2)
+  font-weight: var(--font-weight-2);
+  font-family: var(--font)
 }
 
 .list-item a:hover {
@@ -2229,8 +2227,8 @@ img+br+small {
 
 a.post-list-title {
   text-decoration: none;
-  font-family: var(--font2);
-  font-weight: var(--font2-bold);
+  font-family: var(--font);
+  font-weight: var(--font-weight-5);
   font-size: 2em;
 }
 
