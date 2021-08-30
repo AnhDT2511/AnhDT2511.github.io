@@ -1010,8 +1010,8 @@ svg.menu-icon-house {
   display: none;
 }
 .recent-item-meta{
-  padding-left:5px;
-  font-size:8px;
+  padding-left: 0;
+  font-size: 8px;
   display: block
 }
 .recent-item-meta p{
@@ -1572,6 +1572,7 @@ img + small, img + br + small {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: .5rem;
 }
 .recent-item-img::after {
   content: "";
@@ -1584,13 +1585,14 @@ img + small, img + br + small {
   background: rgba(255,255,255,.15);
   -webkit-transition: all .5s;
   transition: all .5s;
+  border-radius: .5rem;
 }
 
 .recent-item-title {
   position: absolute;
-  left: 2.5%;
-  bottom: 2.5%;
-  width: 97.5%;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
   font-size: 12px;
   font-family: var(--font2), sans-serif;
   font-weight: var(--font2-bold);
@@ -1598,7 +1600,8 @@ img + small, img + br + small {
   text-transform: uppercase;
   color: white;
   background-color: #00000099;
-  padding-left: 5px;
+  padding-left: 10px;
+  padding-top: 2px;
 }
 
 .newsletter {
