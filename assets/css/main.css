@@ -26,7 +26,7 @@ html {
   /* headers and titles   */
   --font1-light: 400;
   --font1-regular: 400;
-  --font1-bold: 600;
+  --font1-bold: 500;
   --font2-light: 200;
   --font2-regular: 400;
   --font2-bold: 500;
@@ -715,7 +715,7 @@ svg {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 27px;
-  font-weight: var(--font2-light);
+  font-weight: var(--font1-light);
   color: var(--accent-dark);
 }
 
@@ -1060,8 +1060,8 @@ svg.menu-icon-house {
 }
 
 .post-card-link:hover {
-  opacity: .75;
-  color: var(--grey4);
+  opacity: .85;
+  color: #fff;
 }
 
 
