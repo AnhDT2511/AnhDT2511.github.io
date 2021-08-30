@@ -1030,7 +1030,7 @@ svg.menu-icon-house {
 .page_meta {
   display: flex;
   color: var(--grey2);
-  font-size: .9em;
+  font-size: 1.125em;
 }
 /* = = = = = = = = = = to top button = = = = = = = = */
 .top {
