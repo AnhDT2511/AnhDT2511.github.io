@@ -1011,17 +1011,17 @@ svg.menu-icon-house {
 }
 
 .post-card:hover .post-card-image::after {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .post-card:hover .post-card-body {
-  background: rgb(255, 255, 255);
+  background-color: #00000099;
 }
 
 .post-card-body {
   position: absolute;
   left: 0;
-  bottom: 5%;
+  bottom: 8%;
   background-color: #00000099;
   padding-left: 15px;
   padding-bottom: 10px;
