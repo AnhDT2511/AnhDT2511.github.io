@@ -543,7 +543,6 @@ a:hover {
 }
 
 table {
-  border-left: 6px solid var(--accent);
   border-spacing: 1px;
   width: 100%;
 }

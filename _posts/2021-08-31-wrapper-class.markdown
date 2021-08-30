@@ -107,7 +107,7 @@ Sau khi một giá trị nguyên thủy được chuyển đổi thành đối t
 
 Ví dụ chúng ta cần tìm số `int` lớn nhất bằng bao nhiêu? Trong **class Integer** đã có sẵn thuộc tính `MAX_VALUE` lưu trữ giá trị lớn nhất của `int`, chúng ta chỉ cần gọi nó ra là xong, không cần làm gì hay tính toán gì thêm.
 
-```java
+{% highlight java %}
 public class SampleClass {
 
     public static void main(String[] args) {
@@ -115,12 +115,12 @@ public class SampleClass {
         System.out.println(Integer.MAX_VALUE);
     }
 }
-```
+{% endhighlight %}
 
 Kết quả nhận được:
-```java
+{% highlight java %}
 2147483647
-```
+{% endhighlight %}
 
 
 ###
