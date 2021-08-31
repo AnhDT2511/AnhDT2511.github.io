@@ -777,7 +777,7 @@ svg {
 
 .main-nav ul li a:hover {
   opacity: .8;
-  color: var(--accent-dark);
+  color: var(--accent);
 }
 
 .menu-icon-container {
