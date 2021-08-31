@@ -1094,7 +1094,7 @@ svg.menu-icon-house {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-  color: var(--grey1);
+  color: var(--color-text-primary);
   margin-right: 10px;
   margin-left: 10px;
 }
