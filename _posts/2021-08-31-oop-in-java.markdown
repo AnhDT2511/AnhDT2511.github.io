@@ -9,7 +9,7 @@ img: posts/20210402/post7-header.webp
 tags: [java, oop]
 category: oop
 author: Tuấn Anh
-github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
+github: https://github.com/AnestAcademy/Course-Java-OOP/blob/master/06.%20OOP%20in%20Java.md
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
 toc: yes # leave empty or erase for no TOC
 ---
@@ -17,12 +17,12 @@ toc: yes # leave empty or erase for no TOC
 Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** là một trong những kỹ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python... đều hỗ trợ OOP.
 
 
-## I. OOP là gì?
+## I. What is OOP
 
 **Lập trình hướng đối tượng (OOP)** là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code - trừu tượng hóa các đối tượng trong cuộc sống vào trong code để tương tác - tính toán - xử lý.
 
 
-## II. OOP trong lập trình
+## II. OOP in programming
 
 Giả sử bạn đang muốn tạo ra một chiếc ô tô, vậy trước tiên bạn cần thiết kế ra một bản thiết kế của cái ô tô đó. Trong bản thiết kế đó sẽ phác thảo ra những thông tin, đặc điểm của chiếc ô tô cần có ví dụ như: tên, màu sắc, kích thước, trọng lượng... bên cạnh đó bạn cũng cần phải mô tả được những công dụng, thao tác, hành động mà chiếc ô tô đó có thể làm được.
 
@@ -52,7 +52,7 @@ Khác với kiểu dữ liệu thông thường (nguyên thủy), một `class` 
 > Trong lập trình, mặc định các `object` là khác nhau cho dù có cùng các giá trị `thuộc tính` và `phương thức` giống nhau.
 
 
-## III. Đặc trưng cơ bản của OOP
+## III. What are the main principles of OOP
 
 Lập trình hướng đối tượng có 4 tính chất đặc thù sau:
 
@@ -74,7 +74,7 @@ Khái niệm cơ bản:
 Trong các bài sau, chúng ta sẽ đi sâu và giải thích rõ hơn từng tính chất cụ thể ở trên và thực hiện code ví dụ minh họa - để có thể hiểu được những tính chất trên được thể hiện trong code như thế nào.
 
 
-## IV. Các ưu điểm của lập trình hướng đối tượng
+## IV. Advantages of object-oriented programming
 
 - Dựa trên nguyên lý kế thừa, trong quá trình tạo - mô tả các `class` có thể loại bỏ những chương trình bị lặp, dư. Và có thể mở rộng khả năng sử dụng các `class` mà không cần thực hiện lại. Tối ưu và tái sử dụng code hiệu quả.
 - Đảm bảo rút ngắn thời gian xây dựng hệ thống và tăng năng suất thực hiện.

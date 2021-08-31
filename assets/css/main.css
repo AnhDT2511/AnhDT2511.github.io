@@ -1438,7 +1438,7 @@ a.tag.side {
 
 aside.toc {
   line-height: 1.4;
-  font-size: .5em;
+  font-size: 12px;
   font-family: sans-serif;
   font-weight: var(--font-weight-5);
   width: max-content;
@@ -1481,7 +1481,7 @@ path.fa-secondary {
 }
 
 .toc-item-1 {
-  padding: 8px 0 8px 0;
+  padding: 8px 0 8px 4px;
 }
 
 .toc-sign {
@@ -1527,7 +1527,8 @@ toc-item-4,
 }
 
 .toc .active {
-  background-color: var(--grey5)
+  background-color: var(--grey5);
+  border-radius: 6px;
 }
 
 .underline {
@@ -1541,7 +1542,7 @@ toc-item-4,
     position: sticky;
     top: 32px;
     width: 180px;
-    margin-right: -210px;
+    margin-right: -220px;
     float: right;
   }
   .toc-content {
@@ -1603,7 +1604,7 @@ div.tag-cloud {
 }
 
 .github-button {
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 1em;
   padding: 3px 10px 3px 10px;
   will-change: transform;
