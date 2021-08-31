@@ -695,7 +695,7 @@ svg {
 .main-header {
   font-family: var(--font), sans-serif;
   padding: 15px 0;
-  background-color: var(--background);
+  /* background-color: var(--background); */
 }
 
 .main-header .header-flex {
@@ -1736,7 +1736,7 @@ tweet a {
   padding: 0;
   margin: 0;
   height: 500px;
-  /* background-color: var(--background); */
+  background-color: var(--background);
   overflow: hidden;
 }
 
