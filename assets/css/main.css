@@ -1364,6 +1364,7 @@ a.tag.side {
   font-weight: var(--font-weight-4);
   display: block;
   text-transform: lowercase;
+  background: var(--grey5);
 }
 
 .share-options {
