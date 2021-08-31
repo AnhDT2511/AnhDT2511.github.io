@@ -1044,6 +1044,8 @@ svg.menu-icon-house {
 /* - */
 .post-card-2 {
   padding: 35px 40px;
+  margin: 8px;
+  border-radius: 8px;
   background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
 }
 
