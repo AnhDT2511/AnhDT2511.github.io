@@ -478,7 +478,7 @@ template {
 figure {
   margin:  0;
   border-radius: .5rem;
-  background-color: #21252a;
+  background-color: #21252a !important;
 }
 
 
