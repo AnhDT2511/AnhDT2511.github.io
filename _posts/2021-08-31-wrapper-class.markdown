@@ -46,10 +46,7 @@ Trong java có 3 kiểu dữ liệu đối tượng:
 
 ### 2. Wrapper class
 
-<p align="center">
-  <img src="../assets/img/posts/wrapper-class/wrapper-class.png">
-</p>
-
+![Wrapper Class](../assets/img/posts/wrapper-class/wrapper-class.png)
 
 Lớp Wrapper trong java cung cấp cơ chế để chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng và ngược lại từ đối tượng thành kiểu dữ liệu nguyên thủy.
 
@@ -84,13 +81,7 @@ Như chúng ta đã tìm hiểu về đối tượng, thì một đối tượng
 
 Sau khi một giá trị nguyên thủy được chuyển đổi thành đối tượng, nó có thể gọi được các phương thức của `class` đó ra để sử dụng.
 
-
-<p align="center">
-  <img src="../assets/img/posts/wrapper-class/wrapper-class-3.jpg">
-</p>
-
 ![Wrapper Class](../assets/img/posts/wrapper-class/wrapper-class-3.jpg)
-
 
 > Nếu bạn thử lấy `num1` gọi các phương thức của **class  Integer** thì chương trình sẽ báo lỗi vì `num1` là kiểu dữ liệu nguyên thủy. Nhưng sau khi chúng ta chuyển đổi `num1` thành đối tượng `num2` bằng cách sử dụng phương thức `valueOf()` được cung cấp sẵn trong **class Integer** thì `num2` có thể gọi các phương thức của **class Integer** một cách bình thường.
 
@@ -98,14 +89,9 @@ Sau khi một giá trị nguyên thủy được chuyển đổi thành đối t
 *Vì trong Java cung cấp rất nhiều phương thức có sẵn đi theo từng `class` nên chúng ta có thể sử dụng phím tắt `ctrl + space` trong IDE để xem nhanh danh sách phương thức được cung cấp của `class` đó.*
 
 
-<p align="center">
-  <img src="../assets/img/posts/wrapper-class/wrapper-class-1.jpg">
-</p>
+![Wrapper Class](../assets/img/posts/wrapper-class/wrapper-class-1.jpg)
 
-
-<p align="center">
-  <img src="../assets/img/posts/wrapper-class/wrapper-class-2.jpg">
-</p>
+![Wrapper Class](../assets/img/posts/wrapper-class/wrapper-class-2.jpg)
 
 
 Ví dụ chúng ta cần tìm số `int` lớn nhất bằng bao nhiêu? Trong **class Integer** đã có sẵn thuộc tính `MAX_VALUE` lưu trữ giá trị lớn nhất của `int`, chúng ta chỉ cần gọi nó ra là xong, không cần làm gì hay tính toán gì thêm.
