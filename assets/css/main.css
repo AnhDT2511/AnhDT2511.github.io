@@ -34,7 +34,7 @@ html {
   --background-image-page: linear-gradient(to right, #ffffff, #ffffff);
   /* search     */
   --border-color-search: #b4b4b4;
-  --color-title-search: #C9D1D9;
+  --color-title-search: #e3e3e3;
   /* index     */
   --color-meta: #24292F;
   --color-description: #24292F;
@@ -66,7 +66,7 @@ html[data-theme="dark"] {
   --background-image-page: linear-gradient(to right, #0D1117, #0D1117);
   /* search     */
   --border-color-search: #656565;
-  --color-title-search: #8b949e;
+  --color-title-search: #e3e3e3;
   /* index     */
   --color-meta: #718096;
   --color-description: #A0AEC0;
