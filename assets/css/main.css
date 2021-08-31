@@ -1244,7 +1244,7 @@ svg.menu-icon-house {
   cursor: pointer;
   border-radius: .45rem;
   color: var(--main);
-  border: 1px solid var(--main);
+  border: 2px solid var(--main);
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
