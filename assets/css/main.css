@@ -1478,6 +1478,7 @@ path.fa-secondary {
   padding: 5px;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  color: var(--color-text-primary);
 }
 
 .toc-item-1 {
@@ -1547,7 +1548,7 @@ toc-item-4,
   }
   .toc-content {
     max-height: calc(100vh - 7em);
-    overflow: scroll;
+    overflow: auto;
   }
 }
 
