@@ -30,6 +30,7 @@ html {
   --page-content-border: #b4b3a7;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+  --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
 }
 
 html[data-theme="dark"] {
@@ -54,6 +55,7 @@ html[data-theme="dark"] {
   --github: #ffaa2c;
   --page-content-border: #30363d;
   --background-image: linear-gradient(to right, #16222a, #3a6073);
+  --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
 }
 
 
@@ -987,70 +989,15 @@ svg.menu-icon-house {
 }
 
 /* - */
-.post-card {
-  position: relative;
-  margin: .5rem;
-  border-radius: .75rem;
-  transition: .5s;
-}
-
-.post-card-image {
-  display: block;
-  width: 100%;
-  min-height: 150px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: .75rem;
-}
-
-.post-card-image::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, .15);
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  border-radius: .75rem;
-}
-
-.post-card:hover .post-card-image::after {
-  background: rgba(255, 255, 255, 0.4);
-}
-
-.post-card:hover .post-card-body {
-  background-color: #00000099;
-}
-
-.post-card-body {
-  position: absolute;
-  left: 0;
-  bottom: 8%;
-  background-color: #00000099;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  padding-top: 6px;
-  width: 100%
-}
-
-.post-card-tags {
-  font-size: 10px
-}
-
-/* - */
-.post-card-2 a {
+.post-card a {
   padding: 30px 35px;
   margin: 10px;
   border-radius: 10px;
   display: inline-block;
-  background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+  background-image: var(--background-image-post-card);
 }
 
-.post-card-2 a:hover {
+.post-card a:hover {
   transform: scale(1.02, 1.05);
 }
 
@@ -1641,7 +1588,7 @@ div.tag-cloud {
   font-weight: var(--font-weight-4);
   display: block;
   text-transform: lowercase;
-  background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+  background-image: var(--background-image-post-card);
 }
 
 .tags li a:hover {
