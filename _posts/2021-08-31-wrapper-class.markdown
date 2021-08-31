@@ -5,7 +5,7 @@ show_date: true
 title: "Wrapper class"
 date: 2021-08-31
 img: posts/20210402/post7-header.webp
-tags: [java, oop]
+tags: [java, oop, basic]
 category: oop
 author: Tuấn Anh
 description: ""

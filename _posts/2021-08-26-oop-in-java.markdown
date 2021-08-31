@@ -6,7 +6,7 @@ title: "OOP in Java"
 date: 2021-08-26
 description: "ELI5: what is a neural network."
 img: posts/20210402/post7-header.webp
-tags: [java, oop]
+tags: [java, oop, basic]
 category: oop
 author: Tuấn Anh
 github: AnestAcademy/Course-Java-OOP/blob/master/06.%20OOP%20in%20Java.md
