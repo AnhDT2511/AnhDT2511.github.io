@@ -1805,6 +1805,7 @@ img+br+small {
 .page-content img {
   display: block;
   margin: 30px auto;
+  border-radius: .5rem;
 }
 
 .header-page {

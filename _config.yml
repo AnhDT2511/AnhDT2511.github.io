@@ -69,9 +69,9 @@ analytics: G-R8SZS2YBZK
 fbadmin: ar.maybach
 
 # Paginate
-paginate: 6
+paginate: 8
 paginate_path: 'page:num'
-words_per_minute: 200
+words_per_minute: 100
 
 # Build settings
 markdown: kramdown
