@@ -1362,7 +1362,7 @@ a.tag.side {
   line-height: 20px;
   font-size: 14px;
   text-decoration: none;
-  color: var(--grey1) !important;
+  color: var(--color-text-primary) !important;
   border-radius: 20px;
   padding: 5px 18px 7px;
   font-family: var(--font);
