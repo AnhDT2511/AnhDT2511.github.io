@@ -1103,7 +1103,7 @@ svg.menu-icon-house {
 .main-footer {
   padding: 5px 15px 5px 15px;
   background-color: var(--background);
-  border: 1px solid var(--page-content-border);
+  border-top: 1px solid var(--page-content-border);
 }
 
 .footer-wrapper {
@@ -1234,15 +1234,15 @@ svg.menu-icon-house {
 
 .top {
   position: fixed;
-  bottom: 62px;
-  right: -100px;
+  bottom: 85px;
+  right: -80px;
   z-index: 1;
   width: 35px;
   height: 35px;
   text-align: center;
   line-height: 35px;
   cursor: pointer;
-  border-radius: 100px;
+  border-radius: .45rem;
   color: var(--main);
   border: 1px solid var(--main);
   -webkit-transition: all 1s;
@@ -1252,7 +1252,7 @@ svg.menu-icon-house {
 }
 
 .top.is-active {
-  right: 40px;
+  right: 25px;
 }
 
 .top:hover {
@@ -1262,7 +1262,7 @@ svg.menu-icon-house {
 
 .top svg {
   display: inline-block;
-  height: 25px;
+  height: 22px;
   vertical-align: text-top;
 }
 
