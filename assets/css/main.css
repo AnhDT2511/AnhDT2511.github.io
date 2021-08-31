@@ -992,7 +992,6 @@ svg.menu-icon-house {
   margin: .5rem;
   border-radius: .75rem;
   transition: .5s;
-  background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
 }
 
 .post-card-image {
@@ -1045,6 +1044,7 @@ svg.menu-icon-house {
 /* - */
 .post-card-2 {
   padding: 40px;
+  background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
 }
 
 .css-ckbral {
