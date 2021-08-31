@@ -1595,6 +1595,10 @@ div.tag-cloud {
   margin-top: 3em;
 }
 
+.side div.tag-cloud {
+  margin-top: 0;
+}
+
 .tags {
   list-style-type: none;
   margin: 0;
