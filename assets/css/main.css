@@ -532,11 +532,6 @@ h1 {
   line-height: 1;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
-}
-
 a {
   color: var(--color-text-link);
   -webkit-transition: all 1s;
@@ -2106,7 +2101,7 @@ img+br+small {
   transform: translateX(-50%);
   display: block;
   height: 1px;
-  width: 80px;
+  width: 200px;
   background-color: var(--accent-dark);
 }
 
