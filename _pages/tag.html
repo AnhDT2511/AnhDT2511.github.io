@@ -19,7 +19,7 @@ infinite: yes
           <a class="post-list-title" href="{{ post_url }}">{{ post.title }}</a>
           {% include post_meta.html type="post-card-meta" %}
           <div class="post-excerpt">
-            {{ post.content | markdownify | truncatewords: 100 }}
+            {{ post.content | markdownify | truncatewords: 95 }}
           </div>
         </div>
       {% endfor %}
