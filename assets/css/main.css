@@ -583,12 +583,20 @@ table th {
   background-color: var(--grey5);
 }
 
+table tr:first-child td:first-child {
+  border-bottom-left-radius: .5rem;
+}
+
+table tr:first-child td:last-child {
+  border-bottom-right-radius: .5rem;
+}
+
 table tr:last-child td:first-child {
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: .5rem;
 }
 
 table tr:last-child td:last-child {
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: .5rem;
 }
 
 blockquote {
