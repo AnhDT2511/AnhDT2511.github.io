@@ -2149,6 +2149,11 @@ img+br+small {
   margin: 0 auto 30px;
 }
 
+.about-header .author-image-container .author-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
 .about-header .subtitle {
   font-weight: var(--font-weight-4);
   margin: 0;
