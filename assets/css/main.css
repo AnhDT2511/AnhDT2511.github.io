@@ -1244,7 +1244,7 @@ svg.menu-icon-house {
   cursor: pointer;
   border-radius: .45rem;
   color: var(--main);
-  border: 2px solid var(--main);
+  border: 1px solid var(--main);
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
@@ -1875,8 +1875,8 @@ img+br+small {
 .recent-item-img {
   position: relative;
   display: inline-block;
-  height: 150px;
-  margin-left: 2%;
+  height: 140px;
+  width: 100%;
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1901,9 +1901,8 @@ img+br+small {
 }
 
 .recent-item-title {
-  position: absolute;
-  left: 0;
-  bottom: 8%;
+  position: relative;
+  margin-top: 85px;
   width: 100%;
   font-size: 12px;
   font-family: var(--font), sans-serif;
@@ -1912,8 +1911,7 @@ img+br+small {
   text-transform: uppercase;
   color: white;
   background-color: #00000099;
-  padding-left: 10px;
-  padding-top: 2px;
+  padding: 2px 10px;
 }
 
 .newsletter {
