@@ -584,11 +584,11 @@ table th {
 }
 
 table tr:first-child td:first-child {
-  border-bottom-left-radius: .5rem;
+  border-top-left-radius: .5rem;
 }
 
 table tr:first-child td:last-child {
-  border-bottom-right-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 table tr:last-child td:first-child {
