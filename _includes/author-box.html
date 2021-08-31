@@ -2,8 +2,13 @@
 {% include escape-404.html %}
 <section class="author-box">
   <div class="narrow-column">
-    <a href='{{ site.website }}'><img src="{{ relativebase }}assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{ site.author }}" class="author-img"></a>
+    <a href='{{ site.website }}' target="_blank">
+      <img src="{{ relativebase }}assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{ site.author }}" class="author-img">
+    </a>
     <ul class="contact-icons">
+      {% if site.facebook %}
+      <li class="facebook"><a class="facebook" href="https://facebook.com/{{site.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      {% endif %}
       {% if site.twitter %}
       <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
       {% endif %}
@@ -19,7 +24,7 @@
     </ul>
   </div>
   <div class="author-desc">
-    <h3>{{site.author}}</h3>
+    <h2>{{site.author}}</h2>
     <p>{{site.about-author}}</p>
   </div>
 </section>

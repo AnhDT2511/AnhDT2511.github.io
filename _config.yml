@@ -47,15 +47,16 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: AnhDT # add your name
 author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+about-author: Full Stack Developer.
 
 # Contact links
 email: anest.academy@gmail.com # Add your Email address
 phone: # Add your Phone number
-website: https://anest.dev # Add your website
+website: https://anhdt.dev # Add your website
 linkedin: # Add your Linkedin handle
 github: '' # Add your Github handle
 twitter: # Add your Twitter handle
+facebook: s2.mask
 
 # Newsletter
 
