@@ -9,7 +9,6 @@ tags: [java, oop]
 category: oop
 author: Tuấn Anh
 description: ""
-toc: yes
 ---
 
 Trong Java, kiểu dữ liệu được chia làm hai loại:

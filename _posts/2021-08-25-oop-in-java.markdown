@@ -10,8 +10,6 @@ tags: [java, oop]
 category: oop
 author: Tuấn Anh
 github: AnestAcademy/Course-Java-OOP/blob/master/06.%20OOP%20in%20Java.md
-mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
-toc: yes # leave empty or erase for no TOC
 ---
 
 Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** là một trong những kỹ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python... đều hỗ trợ OOP.
