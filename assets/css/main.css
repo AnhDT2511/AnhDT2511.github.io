@@ -667,6 +667,9 @@ svg {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
+  border-radius: 20px;
+  padding: 25px;
+  background-image: var(--background-image-post-card);
 }
 
 .wrapper {
