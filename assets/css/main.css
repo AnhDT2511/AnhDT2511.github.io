@@ -2252,7 +2252,7 @@ img+br+small {
 a.post-list-title {
   text-decoration: none;
   font-family: var(--font);
-  font-weight: var(--font-weight-5);
+  font-weight: var(--font-weight-4);
   font-size: 2em;
 }
 
