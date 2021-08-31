@@ -31,6 +31,7 @@ html {
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
   --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 20%));
+  --background-image-page: linear-gradient(to right, #ffffff, #ffffff);
   /* index     */
   --color-meta: #24292F;
   --color-description: #24292F;
@@ -59,6 +60,7 @@ html[data-theme="dark"] {
   --page-content-border: #30363d;
   --background-image: linear-gradient(to right, #16222a, #3a6073);
   --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+  --background-image-page: linear-gradient(to right, #0D1117, #0D1117);
   /* index     */
   --color-meta: #718096;
   --color-description: #A0AEC0;
@@ -527,7 +529,7 @@ body {
 }
 
 .page {
-  background-image: linear-gradient(to right, #0D1117, #0D1117);
+  background-image: var(--background-image-page);
 }
 
 h1,
