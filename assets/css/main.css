@@ -31,6 +31,9 @@ html {
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
   --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+  /* index     */
+  --color-meta: #718096;
+  --color-description: #A0AEC0;
 }
 
 html[data-theme="dark"] {
@@ -56,6 +59,9 @@ html[data-theme="dark"] {
   --page-content-border: #30363d;
   --background-image: linear-gradient(to right, #16222a, #3a6073);
   --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+  /* index     */
+  --color-meta: #718096;
+  --color-description: #A0AEC0;
 }
 
 
@@ -1002,7 +1008,7 @@ svg.menu-icon-house {
 }
 
 .css-ckbral {
-  color: #FFFFFF;
+  color: var(--color-text-primary);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
@@ -1014,21 +1020,21 @@ svg.menu-icon-house {
 }
 
 .css-l1n93i .post-card-meta {
-  color: #718096;
-  font-size: 12px;
+  color: var(--color-meta);
+  font-size: 13px;
   text-transform: capitalize;
   padding-top: 3px;
 }
 
 .css-8djvrt {
-  color: #FFFFFF;
+  color: var(--color-text-primary);
   font-size: 24px;
   line-height: 32px;
   margin: 12px 0 5px;
 }
 
 .css-1ohoj94 {
-  color: #A0AEC0;
+  color: var(--color-description);
   font-size: 14px;
   margin: 0;
 }
