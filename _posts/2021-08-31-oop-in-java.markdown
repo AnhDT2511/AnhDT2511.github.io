@@ -9,7 +9,7 @@ img: posts/20210402/post7-header.webp
 tags: [java, oop]
 category: oop
 author: Tuấn Anh
-github: https://github.com/AnestAcademy/Course-Java-OOP/blob/master/06.%20OOP%20in%20Java.md
+github: AnestAcademy/Course-Java-OOP/blob/master/06.%20OOP%20in%20Java.md
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
 toc: yes # leave empty or erase for no TOC
 ---
