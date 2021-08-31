@@ -1042,11 +1042,16 @@ svg.menu-icon-house {
 }
 
 /* - */
-.post-card-2 {
-  padding: 35px 40px;
-  margin: 8px;
+.post-card-2 a {
+  padding: 30px 35px;
+  margin: 10px;
   border-radius: 8px;
+  display: inline-block;
   background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+}
+
+.post-card-2 a:hover {
+  transform: scale(1.02, 1.05);
 }
 
 .css-ckbral {
@@ -1072,7 +1077,7 @@ svg.menu-icon-house {
   color: #FFFFFF;
   font-size: 24px;
   line-height: 32px;
-  margin: 10px 0;
+  margin: 12px 0 5px;
 }
 
 .css-1ohoj94 {
@@ -1136,8 +1141,8 @@ svg.menu-icon-house {
   text-transform: uppercase;
   font-size: 16px;
   color: var(--grey1);
-  margin-right: .5rem;
-  margin-left: .5rem;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .pagination .previous:hover,
