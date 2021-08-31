@@ -33,7 +33,7 @@ html {
   --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 20%));
   --background-image-page: linear-gradient(to right, #ffffff, #ffffff);
   /* search     */
-  --border-color-search: #8c8c8c;
+  --border-color-search: #c2c2c2;
   --color-title-search: #e3e3e3;
   /* index     */
   --color-meta: #24292F;
@@ -65,7 +65,7 @@ html[data-theme="dark"] {
   --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
   --background-image-page: linear-gradient(to right, #0D1117, #0D1117);
   /* search     */
-  --border-color-search: #c2c2c2;
+  --border-color-search: #8c8c8c;
   --color-title-search: #e3e3e3;
   /* index     */
   --color-meta: #718096;
