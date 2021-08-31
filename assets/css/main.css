@@ -508,7 +508,7 @@ body {
   font-family: var(--font);
   color: var(--color-text-primary);
   margin: 0;
-  /* background-image: var(--background-image); */
+  background-image: var(--background-image);
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
