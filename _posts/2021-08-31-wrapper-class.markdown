@@ -9,6 +9,7 @@ tags: [java, oop]
 category: oop
 author: Tuấn Anh
 description: ""
+toc: yes
 ---
 
 Trong Java, kiểu dữ liệu được chia làm hai loại:
@@ -23,14 +24,14 @@ Ví dụ:
 - `Integer`,`Long`, `Float`, `Double` là kiểu không nguyên thuỷ
 
 
-### I. Primitive data types
+## I. Primitive data types
 
 Các bạn có thể đọc lại bài sau [Data types](https://github.com/AnestAcademy/Course-Java-OOP/blob/master/03.%20Data%20types.md)
 
 
-### II. Non-primitive data types
+## II. Non-primitive data types
 
-#### 1. Kiểu dữ liệu đối tượng
+### 1. Kiểu dữ liệu đối tượng
 
 Trong java có 3 kiểu dữ liệu đối tượng:
 
@@ -43,7 +44,7 @@ Trong java có 3 kiểu dữ liệu đối tượng:
 *Chúng ta sẽ tìm hiểu chi tiết những đối tượng này ở những bài sau.*
 
 
-#### 2. Wrapper class
+### 2. Wrapper class
 
 <p align="center">
   <img src="https://github.com/AnestAcademy/Course-Java-OOP/blob/master/images/wrapper-class.png">
@@ -77,7 +78,7 @@ public class SampleClass {
 {% endhighlight %}
 
 
-#### Tại sao phải chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng?
+### Tại sao phải chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng?
 
 Như chúng ta đã tìm hiểu về đối tượng, thì một đối tượng sẽ có **thuộc tính** và **phương thức** còn dữ liệu nguyên thủy thì không. Trong Java, có sẵn rất nhiều phương thức được cung cấp theo từng `class` có chức năng cụ thể để làm việc với `class` đó.
 

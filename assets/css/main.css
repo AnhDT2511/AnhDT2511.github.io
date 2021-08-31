@@ -1482,7 +1482,7 @@ path.fa-secondary {
 }
 
 .toc-item-1 {
-  padding: 8px 0 8px 4px;
+  padding: 8px 4px;
 }
 
 .toc-sign {
@@ -1548,7 +1548,7 @@ toc-item-4,
   }
   .toc-content {
     max-height: calc(100vh - 7em);
-    overflow: auto;
+    overflow: hidden;
   }
 }
 
