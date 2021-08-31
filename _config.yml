@@ -22,7 +22,7 @@ title: ANEST Learning
 email: anest.academy@gmail.com
 author: AnhDT
 description: 'ANEST Learning.' # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://anhdt2511.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/branding/MVM-logo-full.svg"
 logo-icon: "/assets/img/branding/MVM-symbol.svg"

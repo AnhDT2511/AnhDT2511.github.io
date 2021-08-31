@@ -47,7 +47,7 @@ Trong java có 3 kiểu dữ liệu đối tượng:
 ### 2. Wrapper class
 
 <p align="center">
-  <img src="./assets/img/posts/wrapper-class/wrapper-class.png">
+  <img src="../assets/img/posts/wrapper-class/wrapper-class.png">
 </p>
 
 
@@ -98,12 +98,12 @@ Sau khi một giá trị nguyên thủy được chuyển đổi thành đối t
 
 
 <p align="center">
-  <img src="./assets/img/posts/wrapper-class/wrapper-class-1.png">
+  <img src="../assets/img/posts/wrapper-class/wrapper-class-1.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/posts/wrapper-class/wrapper-class-2.png">
+  <img src="../assets/img/posts/wrapper-class/wrapper-class-2.png">
 </p>
 
 
