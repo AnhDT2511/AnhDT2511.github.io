@@ -508,11 +508,18 @@ body {
   font-family: var(--font);
   color: var(--color-text-primary);
   margin: 0;
-  background-image: var(--background-image);
   background-color: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
+}
+
+.transparent-bg {
+  background-image: var(--background-image);
+}
+
+.page {
+  background-image: linear-gradient(to right, #0D1117, #0D1117);
 }
 
 h1,
@@ -1100,7 +1107,6 @@ svg.menu-icon-house {
 /* = = = = = = = = = = Footer  = = = = = = = = = = */
 
 .main-footer {
-  margin-top: 10px;
   padding: 5px 15px 5px 15px;
   background-color: var(--background);
   border-top: 1px solid var(--page-content-border);
