@@ -30,10 +30,10 @@ html {
   --page-content-border: #b4b3a7;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
-  --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
+  --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 20%));
   /* index     */
-  --color-meta: #718096;
-  --color-description: #A0AEC0;
+  --color-meta: #24292F;
+  --color-description: #24292F;
 }
 
 html[data-theme="dark"] {
@@ -1013,6 +1013,7 @@ svg.menu-icon-house {
   letter-spacing: 2px;
   font-size: 12px;
   margin: 0;
+  font-weight: 500;
 }
 
 .css-l1n93i {
