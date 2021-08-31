@@ -1612,7 +1612,7 @@ div.tag-cloud {
   line-height: 20px;
   font-size: 14px;
   text-decoration: none;
-  color: var(--grey1) !important;
+  color: var(--color-text-primary) !important;
   border-radius: 20px;
   padding: 5px 18px 7px;
   font-family: var(--font);
@@ -2196,7 +2196,7 @@ img+br+small {
 }
 
 .list-group {
-  border-top: 1px solid var(--grey4);
+  border-top: 1px solid var(--border-color-search);
   padding: 5px 10px;
   margin-bottom: 10px
 }
@@ -2220,15 +2220,14 @@ img+br+small {
 .list-item a {
   display: block;
   text-decoration: none;
-  color: var(--main);
+  color: var(--color-text-link);
   font-size: 1.25em;
   font-weight: var(--font-weight-2);
   font-family: var(--font)
 }
 
 .list-item a:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--grey4);
+  text-decoration: none;
 }
 
 .post:not(:last-child) {
