@@ -1043,7 +1043,7 @@ svg.menu-icon-house {
 
 /* - */
 .post-card-2 {
-  padding: 40px;
+  padding: 35px 40px;
   background-image: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
 }
 
@@ -1052,23 +1052,27 @@ svg.menu-icon-house {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
+  margin: 0;
 }
 
-.css-l1n93i {
+.css-l1n93i .post-card-meta {
   color: #718096;
   font-size: 12px;
   text-transform: capitalize;
+  padding-top: 0;
 }
 
 .css-8djvrt {
   color: #FFFFFF;
   font-size: 24px;
   line-height: 32px;
+  margin: 10px 0;
 }
 
 .css-1ohoj94 {
   color: #A0AEC0;
   font-size: 14px;
+  margin: 0;
 }
 
 /* - */
