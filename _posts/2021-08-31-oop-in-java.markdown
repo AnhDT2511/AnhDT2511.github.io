@@ -21,10 +21,6 @@ Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** 
 
 **Lập trình hướng đối tượng (OOP)** là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code - trừu tượng hóa các đối tượng trong cuộc sống vào trong code để tương tác - tính toán - xử lý.
 
-**Lập trình hướng đối tượng (OOP)** là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code - trừu tượng hóa các đối tượng trong cuộc sống vào trong code để tương tác - tính toán - xử lý.
-
-**Lập trình hướng đối tượng (OOP)** là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code - trừu tượng hóa các đối tượng trong cuộc sống vào trong code để tương tác - tính toán - xử lý.
-
 
 ## II. OOP in programming
 
