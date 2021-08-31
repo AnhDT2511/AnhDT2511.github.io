@@ -1192,7 +1192,7 @@ svg.menu-icon-house {
 /* = = = = post's read time and date (meta data) = = = = */
 
 .post-card-meta {
-  font-size: .6em;
+  font-size: 14px;
   white-space: nowrap;
   display: block;
   padding-top: 4px;
@@ -2171,7 +2171,7 @@ img+br+small {
 /* = = = = = = = = = = Post Lists  = = = = = = = = = = */
 
 .tag-master h1 {
-  color: var(--grey4);
+  color: var(--color-text-primary);
   text-transform: lowercase;
 }
 
