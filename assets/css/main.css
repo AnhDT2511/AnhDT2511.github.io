@@ -33,7 +33,7 @@ html {
   --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 20%));
   --background-image-page: linear-gradient(to right, #ffffff, #ffffff);
   /* search     */
-  --border-color-search: #b4b4b4;
+  --border-color-search: #8c8c8c;
   --color-title-search: #e3e3e3;
   /* index     */
   --color-meta: #24292F;
@@ -65,7 +65,7 @@ html[data-theme="dark"] {
   --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.3));
   --background-image-page: linear-gradient(to right, #0D1117, #0D1117);
   /* search     */
-  --border-color-search: #656565;
+  --border-color-search: #c2c2c2;
   --color-title-search: #e3e3e3;
   /* index     */
   --color-meta: #718096;
@@ -933,12 +933,12 @@ svg.menu-icon-house {
 
 .search-form .search {
   width: 100%;
-  padding: 15px;
+  padding: 15px 0;
   border: none;
   border-bottom: 2px solid var(--border-color-search);
   outline: none;
-  font-size: 21px;
-  color: var(--color-text-primary);
+  font-size: 20px;
+  color: var(--color-title-search);
   background: transparent;
 }
 
