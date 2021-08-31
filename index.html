@@ -19,10 +19,10 @@ layout: home-page
         </p>
       </div> -->
       <a href="{{ post_url }}">
-        <p class="css-ckbral">TYPESCRIPT | ANGULAR | RXJS</p>
+        <p class="css-ckbral">{{ post.tags }}</p>
         <p class="css-l1n93i">{% include post_meta.html type="post-card-meta" date="none" %}</p>
         <p class="css-8djvrt">{{ post.title }}</p>
-        <p class="css-1ohoj94">State Management hay quản lý state là một khái niệm khá phổ biến ở React và Angular cũng đã có một sự giao lưu tuyệt vời với nó qua NgRx…</p>
+        <p class="css-1ohoj94">{{ post.content | markdownify | truncatewords: 30 }}</p>
       </a>
     </div>
   </li>
