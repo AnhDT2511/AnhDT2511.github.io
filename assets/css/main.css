@@ -2177,7 +2177,7 @@ img+br+small {
 
 .contact-list a {
   display: block;
-  color: var(--accent-dark);
+  color: var(--color-text-primary);
   font-size: 32px;
   text-decoration: none;
   padding: 5px;
