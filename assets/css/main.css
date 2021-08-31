@@ -53,7 +53,7 @@ html[data-theme="dark"] {
   --grey2: #959692;
   --grey3: #7C7E7B;
   --grey4: #21252b;
-  --grey5: #343942;
+  --grey5: #656565;
   /* --background: #18191a; */
   --background: #0D1117;
   --github: #ffaa2c;
@@ -906,7 +906,7 @@ svg.menu-icon-house {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background: var(--background);
+  background: var(--background-image);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   -webkit-transform: translate(0, -100%) scale(0, 0);
@@ -929,11 +929,11 @@ svg.menu-icon-house {
   width: 100%;
   padding: 15px;
   border: none;
-  border-bottom: 1px solid var(--grey5);
+  border-bottom: 2px solid var(--grey5);
   outline: none;
   font-size: 21px;
-  color: var(--grey1);
-  background: var(--background);
+  color: var(--color-text-primary);
+  background: transparent;
 }
 
 .results-search {
@@ -947,7 +947,7 @@ svg.menu-icon-house {
 .results-search li {
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid var(--grey5);
 }
 
 .results-search li a {
