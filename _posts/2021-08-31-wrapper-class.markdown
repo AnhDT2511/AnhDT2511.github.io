@@ -88,7 +88,8 @@ Sau khi một giá trị nguyên thủy được chuyển đổi thành đối t
 <p align="center">
   <img src="../assets/img/posts/wrapper-class/wrapper-class-3.png">
 </p>
-![Wrapper Class](./assets/img/posts/wrapper-class/wrapper-class-3.png)
+
+![Wrapper Class](../assets/img/posts/wrapper-class/wrapper-class-3.png)
 
 
 > Nếu bạn thử lấy `num1` gọi các phương thức của **class  Integer** thì chương trình sẽ báo lỗi vì `num1` là kiểu dữ liệu nguyên thủy. Nhưng sau khi chúng ta chuyển đổi `num1` thành đối tượng `num2` bằng cách sử dụng phương thức `valueOf()` được cung cấp sẵn trong **class Integer** thì `num2` có thể gọi các phương thức của **class Integer** một cách bình thường.
