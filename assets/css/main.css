@@ -718,7 +718,7 @@ svg {
   text-transform: uppercase;
   font-size: 27px;
   font-weight: var(--font-weight-4);
-  color: var(--accent-dark);
+  color: var(--color-text-primary);
 }
 
 .main-nav {
