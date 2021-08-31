@@ -2231,7 +2231,7 @@ img+br+small {
 }
 
 .post:not(:last-child) {
-  border-bottom: 1px solid var(--grey4);
+  border-bottom: 1px solid var(--border-color-search);
   margin-bottom: 1.5em;
   padding-bottom: 1em
 }
