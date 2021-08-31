@@ -4,11 +4,14 @@ read_time: true
 show_date: true
 title: "OOP in Java"
 date: 2021-08-31
+description: "ELI5: what is a neural network."
 img: posts/20210402/post7-header.webp
 tags: [java, oop]
 category: oop
 author: Tuấn Anh
-description: "ELI5: what is a neural network."
+github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
+mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
+toc: yes # leave empty or erase for no TOC
 ---
 
 Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** là một trong những kỹ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python... đều hỗ trợ OOP.
