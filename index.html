@@ -20,9 +20,9 @@ layout: home-page
       </div> -->
       <a href="{{ post_url }}">
         <p class="css-ckbral">{{ post.tags }}</p>
-        <p class="css-l1n93i">{{ post.date | date_to_xmlschema }} {% include post_meta.html type="post-card-meta" date="none" %}</p>
+        <p class="css-l1n93i">{% include post_meta.html type="post-card-meta" %}</p>
         <p class="css-8djvrt">{{ post.title }}</p>
-        <p class="css-1ohoj94">{{ post.content  | truncatewords: 20 }}</p>
+        <p class="css-1ohoj94">{{ post.content  | truncatewords: 10 }}</p>
       </a>
     </div>
   </li>
