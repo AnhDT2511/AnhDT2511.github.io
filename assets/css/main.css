@@ -986,6 +986,7 @@ svg.menu-icon-house {
   width: 50%;
 }
 
+/* - */
 .post-card {
   position: relative;
   margin: .5rem;
@@ -1040,6 +1041,37 @@ svg.menu-icon-house {
 .post-card-tags {
   font-size: 10px
 }
+
+/* - */
+.post-card-2 {
+  padding: 40px;
+}
+
+.css-ckbral {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.css-l1n93i {
+  color: #718096;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.css-8djvrt {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.css-1ohoj94 {
+  color: #A0AEC0;
+  font-size: 14px;
+}
+
+/* - */
 
 .tag {
   text-decoration: none;

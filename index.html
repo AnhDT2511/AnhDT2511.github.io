@@ -7,7 +7,7 @@ layout: home-page
   {% for post in paginator.posts %}
   {% include remove_double_slash.html %}
   <li>
-    <div class="post-card">
+    <div class="post-card-2">
       <!-- <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image" style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
       </a>
       <div class="post-card-body">
@@ -19,10 +19,10 @@ layout: home-page
         </p>
       </div> -->
       <a href="{{ post_url }}">
-        <p>TYPESCRIPT | ANGULAR | RXJS</p>
-        <p>2020-09-28 | 15 phút</p>
-        <p>State Management Trong Angular Với NgRx</p>
-        <p>State Management hay quản lý state là một khái niệm khá phổ biến ở React và Angular cũng đã có một sự giao lưu tuyệt vời với nó qua NgRx…</p>
+        <p class="css-ckbral">TYPESCRIPT | ANGULAR | RXJS</p>
+        <p class="css-l1n93i">2020-09-28 | {% include post_meta.html type="post-card-meta" date="none" %}</p>
+        <p class="css-8djvrt">{{ post.title }}</p>
+        <p class="css-1ohoj94">State Management hay quản lý state là một khái niệm khá phổ biến ở React và Angular cũng đã có một sự giao lưu tuyệt vời với nó qua NgRx…</p>
       </a>
     </div>
   </li>
