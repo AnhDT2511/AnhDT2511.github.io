@@ -1363,8 +1363,8 @@ a.tag.side {
   font-size: 14px;
   text-decoration: none;
   color: var(--grey1) !important;
-  border-radius: 15px;
-  padding: 5px 18px;
+  border-radius: 20px;
+  padding: 5px 18px 7px;
   font-family: var(--font);
   font-weight: var(--font-weight-4);
   display: block;
@@ -1609,8 +1609,8 @@ div.tag-cloud {
   font-size: 14px;
   text-decoration: none;
   color: var(--grey1) !important;
-  border-radius: 15px;
-  padding: 5px 18px;
+  border-radius: 20px;
+  padding: 5px 18px 7px;
   font-family: var(--font);
   font-weight: var(--font-weight-4);
   display: block;
