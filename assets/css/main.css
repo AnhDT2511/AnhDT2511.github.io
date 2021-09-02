@@ -24,12 +24,12 @@ html {
   --grey2: #8D897C;
   --grey4: #DAD7D2;
   --grey5: #eceef0;
-  --background: rgb(255 255 255 / 10%);
+  --background: rgb(255 255 255 / 0%);
   --github: #ffaa2c;
-  --page-content-border: #b4b3a7;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-2: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   /* page content     */
+  --page-content-border: transparent;
   --background-page-content: rgb(255 255 255 / 0%);
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
   /* --- */
@@ -63,10 +63,10 @@ html[data-theme="dark"] {
   /* --background: #18191a; */
   --background: #0D1117;
   --github: #ffaa2c;
-  --page-content-border: #30363d;
   --background-image: linear-gradient(to right, #16222a, #3a6073);
   --background-image-2: #0D1117;
   /* page content     */
+  --page-content-border: #30363d;
   --background-page-content: #0D1117;
   --background-image-page-content: #0D1117;
   /* --- */
@@ -698,7 +698,6 @@ svg {
   z-index: 10;
   width: 300px;
   height: 100%;
-  background-color: var(--background);
   padding: 25px 30px;
   -webkit-transform: translate3d(-300px, 0, 0);
   transform: translate3d(-300px, 0, 0);
@@ -749,7 +748,7 @@ svg.menu-icon-house {
 .search-icon-close {
   cursor: pointer;
   font-size: 20px;
-  color: var(--main);
+  color: var(--color-text-primary);
   -webkit-transition: all .4s;
   transition: all .4s;
   padding: 10px;
@@ -1185,9 +1184,10 @@ svg.menu-icon-house {
 
 .page_meta {
   display: flex;
-  color: var(--grey2);
+  color: var(--color-text-primary);
   font-size: 1.125em;
   margin-bottom: 35px;
+  font-style: italic;
 }
 
 
@@ -1606,7 +1606,7 @@ div.tag-cloud {
   margin: auto;
   margin-top: -100px;
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   background-color: var(--background-page-content);
   background-image: var(--background-image-page-content);
@@ -2237,6 +2237,9 @@ a.read-more:hover {
   .about-container {
     margin: 25px 0 25px;
   }
+  .wrapper {
+    padding: 10px;
+  }
   .page-content img {
     display: block;
     margin: 30px auto;
@@ -2253,7 +2256,7 @@ a.read-more:hover {
 
 @media only screen and (max-width: 480px) {
   .wrapper {
-    max-width: 95%;
+    padding: 10px;
   }
   .page-content {
     margin-top: -100px;
