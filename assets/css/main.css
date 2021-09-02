@@ -1807,7 +1807,7 @@ tweet a {
   border-radius: 20px;
   border: 1px solid var(--page-content-border);
   /* background-image: var(--background-image-page-content); */
-  max-width: 1000px;
+  max-width: 960px;
 }
 
 
