@@ -24,20 +24,20 @@ html {
   --grey2: #8D897C;
   --grey4: #DAD7D2;
   --grey5: #eceef0;
-  --background: rgb(255 255 255 / 0%);
+  --background: rgb(255 255 255 / 100%);
   --github: #ffaa2c;
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-2: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   /* page content     */
   --page-content-border: transparent;
-  --background-page-content: rgb(255 255 255 / 0%);
+  --background-page-content: rgb(255 255 255 / 15%);
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
-  /* --- */
-  --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 15%));
   /* search     */
   --border-color-search: #c2c2c2;
   --color-title-search: #e3e3e3;
   /* index     */
+  --background-post-card: rgb(255 255 255 / 15%);
+  --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 15%));
   --color-meta: #24292F;
   --color-description: #24292F;
   /* footer     */
@@ -69,12 +69,12 @@ html[data-theme="dark"] {
   --page-content-border: #30363d;
   --background-page-content: #0D1117;
   --background-image-page-content: #0D1117;
-  /* --- */
-  --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.25));
   /* search     */
   --border-color-search: #576d7f;
   --color-title-search: #e3e3e3;
   /* index     */
+  --background-post-card: rgb(255 255 255 / 0%);
+  --background-image-post-card: linear-gradient(to bottom right, rgba(22, 34, 42, 0.6), rgba(22, 34, 42, 0.25));
   --color-meta: #718096;
   --color-description: #A0AEC0;
   /* footer     */
@@ -658,7 +658,6 @@ svg {
 
 .main-header {
   font-family: var(--font), sans-serif;
-  padding: 15px 0;
   /* background-color: var(--background); */
 }
 
@@ -957,6 +956,7 @@ svg.menu-icon-house {
   border-radius: 10px;
   display: inline-block;
   background-image: var(--background-image-post-card);
+  background-color: var(--background-post-card);
 }
 
 .post-card a:hover {
@@ -1592,7 +1592,7 @@ div.tag-cloud {
   position: relative;
   padding: 0;
   margin: 0;
-  height: 500px;
+  height: 450px;
   overflow: hidden;
 }
 
@@ -1773,99 +1773,6 @@ img+br+small {
   color: white;
   background-color: #00000099;
   padding: 2px 10px;
-}
-
-.newsletter {
-  text-align: center;
-  margin-top: 30px;
-  padding-bottom: 60px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid var(--grey4);
-}
-
-.page-subtitle {
-  font-weight: var(--font-weight-4);
-  text-align: center;
-  margin: 0 0 30px;
-}
-
-.newsletter .form-container {
-  padding: 30px;
-  background-color: var(--grey5);
-  width: 720px;
-  max-width: 100%;
-  margin: 0 auto;
-  font-size: 18px;
-}
-
-.newsletter .form-container p {
-  margin: 0;
-}
-
-.newsletter .screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute !important;
-  width: 1px;
-  word-wrap: normal !important;
-}
-
-.newsletter .newsletter-box {
-  position: relative;
-  max-width: 100%;
-  margin: 25px 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
-.newsletter .newsletter-box .email-input {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  height: 40px;
-  padding: 8px 10px;
-  width: 100%;
-  max-width: 100%;
-  color: var(--color-text-primary);
-  background-color: var(--background);
-  border: none;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  font-size: 14px;
-  outline: none;
-}
-
-.newsletter .newsletter-box .subscribe-btn {
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: 100px;
-  height: 40px;
-  font-size: 14px;
-  text-align: center;
-  color: var(--background);
-  background-color: var(--accent-dark);
-  vertical-align: baseline;
-  cursor: pointer;
-  border: none;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  outline: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.newsletter .newsletter-box .subscribe-btn:hover {
-  background-color: var(--accent);
-  color: white;
 }
 
 
