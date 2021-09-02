@@ -30,7 +30,7 @@ html {
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-2: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   /* page content     */
-  --background-page-content: rgb(255 255 255 / 25%);
+  --background-page-content: rgb(255 255 255 / 0%);
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
   /* --- */
   --background-image-post-card: linear-gradient(to bottom right, rgb(255 255 255 / 35%), rgb(255 255 255 / 15%));
@@ -1607,13 +1607,12 @@ div.tag-cloud {
   margin-top: -100px;
   padding: 30px;
   border-radius: 20px;
-  /* border: 1px solid var(--page-content-border); */
   border: none;
-  background-color: var(--background-image-page-content);
+  background-color: var(--background-page-content);
   background-image: var(--background-image-page-content);
   max-width: 960px;
   backdrop-filter: blur(7.5px);
-  
+  border: 1px solid var(--page-content-border);
 }
 
 
@@ -1877,7 +1876,7 @@ img+br+small {
   margin-top: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--grey4);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .narrow-column {
