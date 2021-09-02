@@ -1435,6 +1435,40 @@ a.tag.side {
   margin-top: 2em
 }
 
+@media (min-width: 64em) {
+  .sidebar.side {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 32px;
+    width: 115px;
+    margin-left: -145px;
+    float: left;
+  }
+  .sidebar.side .tag-cloud {
+    display: block;
+  }
+  ul.tags.side {
+    display: block;
+  }
+  .share-options.side {
+    width: 20px;
+    margin: auto;
+    cursor: pointer;
+    margin-right: 58px;
+  }
+  .share-icons.side {
+    display: block;
+    transition: all 1s ease-out;
+    max-height: 0;
+    clip-path: inset(0);
+  }
+  .share-hover:hover>#sidebar-icons {
+    transition: all 0.5s ease-in;
+    max-height: 100vh;
+    clip-path: inset(-100vh -100vw);
+  }
+}
 
 /* = = = = = = = = = = Right Sidebar TOC  = = = = = = = = = = */
 
