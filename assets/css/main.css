@@ -2420,7 +2420,7 @@ a.read-more:hover {
   }
   .post-card-box li {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   .post-card-box li:last-child {
     margin-bottom: 0;
