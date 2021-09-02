@@ -2109,6 +2109,16 @@ a.read-more:hover {
 
 /* Small Devices, Tablets */
 
+@media only screen and (max-width: 1024px) {
+  .page-image {
+    height: 300px;
+  }
+  .page-image .cover-image {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .main-header .logo {
     width: 90%;
@@ -2147,13 +2157,6 @@ a.read-more:hover {
   }
   .wrapper {
     padding: 20px;
-  }
-  .page-image {
-    height: 300px;
-  }
-  .page-image .cover-image {
-    width: 100%;
-    border-radius: 0;
   }
   .page-content img {
     display: block;
@@ -2199,9 +2202,6 @@ a.read-more:hover {
   .search-icon-close {
     font-size: 18px;
   }
-  .page-image {
-    height: 380px;
-  }
   .recent-box .recent-list .recent-item-img {
     position: relative;
     display: inline-block;
@@ -2217,11 +2217,6 @@ a.read-more:hover {
     bottom: 2.5%;
     width: 97.5%;
     color: white;
-  }
-  .newsletter .newsletter-box .subscribe-btn {
-    width: 80px;
-    height: 40px;
-    font-size: 12px;
   }
   .about-body .contact-list li {
     margin-left: 5px;
