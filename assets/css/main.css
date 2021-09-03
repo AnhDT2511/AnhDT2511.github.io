@@ -625,7 +625,7 @@ svg {
 }
 
 .wrapper {
-  width: 960px;
+  width: 1000px;
   max-width: 100%;
   margin: 0.75em auto;
   position: relative;
@@ -1606,8 +1606,8 @@ div.tag-cloud {
 .page-content {
   margin: auto;
   margin-top: -100px;
-  padding: 30px;
-  border-radius: 30px;
+  padding: 25px;
+  border-radius: 25px;
   border: none;
   background-color: var(--background-page-content);
   background-image: var(--background-image-page-content);
