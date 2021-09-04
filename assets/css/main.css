@@ -461,10 +461,10 @@ body {
 
 .transparent-bg {
   background-image: var(--background-image);
-  background-image: url(../../assets/img/img28.jpg);
+  /* background-image: url(../../assets/img/img28.jpg);
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .transparent-bg-post {
