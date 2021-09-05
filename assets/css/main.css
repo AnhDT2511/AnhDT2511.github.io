@@ -29,8 +29,8 @@ html {
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-2: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   /* page content     */
-  --page-content-border: transparent;
-  --background-page-content: rgb(255 255 255 / 15%);
+  --page-content-border: rgb(145, 145, 145);
+  --background-page-content: rgb(255 255 255);
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
   /* search     */
   --border-color-search: #c2c2c2;
@@ -1613,10 +1613,8 @@ div.tag-cloud {
   padding: 25px;
   border-radius: 25px;
   border: none;
-  background-color: var(--background-page-content);
-  background-image: var(--background-image-page-content);
   max-width: 960px;
-  backdrop-filter: blur(7.5px);
+  background-color: var(--background-page-content);
   border: 1px solid var(--page-content-border);
 }
 
