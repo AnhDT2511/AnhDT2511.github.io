@@ -689,7 +689,7 @@ svg {
 
 .main-header .logo a {
   text-decoration: none;
-  font-size: 27px;
+  font-size: 28px;
   font-weight: var(--font-weight-4);
   color: var(--color-text-primary);
 }
@@ -1223,7 +1223,8 @@ svg.menu-icon-house {
 
 .top:hover {
   color: var(--accent);
-  border-color: var(--accent);
+  border: 1px solid var(--grey4);
+  background-color: var(--grey4);
 }
 
 .top svg {
@@ -1875,7 +1876,7 @@ img+br+small {
   display: block;
   height: 1px;
   width: 200px;
-  background-color: var(--accent-dark);
+  background-color: var(--border-color-search);
 }
 
 .about-header .author-image-container {
@@ -1924,9 +1925,9 @@ img+br+small {
 }
 
 .contact-list a:hover {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 
