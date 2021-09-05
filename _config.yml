@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ANEST Learning
-email: anest.academy@gmail.com
+title: Góc của T.Anh
+email: anhdt0407@gmail.com
 author: Đinh Tuấn Anh
 permalink: ':title:output_ext'
-description: 'ANEST Learning.' # this means to ignore newlines until "baseurl:"
+description: 'Góc của T.Anh' # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://anhdt2511.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/branding/MVM-logo-full.svg"
@@ -47,10 +47,10 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: Đinh Tuấn Anh # add your name
 author-pic: Myself_Neon_grey.jpg
-about-author: ANEST là nơi không chỉ để lập trình, chúng tôi thành lập với tầm nhìn tạo nên một môi trường học tập thú vị - tốt nhất cho học viên. Biến việc học lập trình khô khan trở nên thú vị và dễ tiếp thu hơn bằng sự nỗ lực và tâm huyết của người giảng dạy. Bên cạnh đó kiến thức giảng dạy phải luôn mang tính thực tiễn, cập nhật theo xu hướng phát triển không ngừng của công nghệ trong thời đại cách mạng công nghiệp 4.0 đang diễn ra.
+about-author: Xin chào, mình là Tuấn Anh. Đây là nơi mình chia sẽ các bài viết về lập trình và tất cả thể loại mà mình thích viết, còn viết khi nào thì tuỳ hứng.
 
 # Contact links
-email: anest.academy@gmail.com # Add your Email address
+email: anhdt0407@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://anhdt.dev # Add your website
 linkedin: # Add your Linkedin handle
@@ -66,7 +66,7 @@ comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
 analytics: G-XM9T80G9QJ
-fbadmin: ar.maybach
+fbadmin: s2.mask
 
 # Paginate
 paginate: 8
@@ -83,7 +83,7 @@ compress_html:
   startings: [html, head, body]
 
 # Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: VN # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 category_archive:
   type: liquid
