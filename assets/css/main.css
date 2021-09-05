@@ -12,7 +12,7 @@ html {
   /* accent          */
   --accent: #DB504A;
   /* accent-dark     */
-  --accent-dark: #7a8592;
+  --accent-dark: #636b75;
   /* main color      */
   --main: #326273;
   /* main dim        */
@@ -29,7 +29,7 @@ html {
   --background-image: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   --background-image-2: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   /* page content     */
-  --page-content-border: rgb(145, 145, 145);
+  --page-content-border: #DAD7D2;
   --background-page-content: rgb(255 255 255);
   --background-image-page-content: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
   /* search     */
