@@ -7,7 +7,6 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% include SEO.html %}
-  {% include analytics.html %}
   <!-- Windows Phone -->
   <meta name="msapplication-navbutton-color" content="#311e3e">
   <!-- iOS Safari -->
@@ -19,8 +18,9 @@
   <link rel="stylesheet" href="{{ relativebase }}assets/fonts/font-awesome/css/font-awesome.min.css">
   <!-- Styles -->
   <link rel="stylesheet" href="{{ relativebase }}assets/css/main.css">
-  {% include favicon.html %}
   {% if page.layout == 'post' %}
   <link rel="stylesheet" href="{{ relativebase }}assets/css/highlighter/{{ site.highlight_theme }}.css">
   {% endif %}
+  {% include favicon.html %}
+  {% include analytics.html %}
 </head>

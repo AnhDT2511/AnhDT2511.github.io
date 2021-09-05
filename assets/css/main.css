@@ -689,7 +689,6 @@ svg {
 
 .main-header .logo a {
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 27px;
   font-weight: var(--font-weight-4);
   color: var(--color-text-primary);
