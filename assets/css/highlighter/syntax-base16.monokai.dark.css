@@ -2,7 +2,8 @@
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
   color: #f8f8f2;
-  background-color: #272822;
+  background-color: #21252a;
+  border-radius: 10px;
 }
 .highlight .err {
   color: #c9d1d9;

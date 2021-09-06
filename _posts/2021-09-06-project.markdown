@@ -33,7 +33,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
 1. Trong class **entity.Person**:
     - Chúng ta sẽ viết method `display()` để hiển thị một đối tượng `Person` như sau:
 
-{% highlight java %}
+      ```java
       package entity;
 
       public class Person {
@@ -61,11 +61,11 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               );
           }
       }
-{% endhighlight %}
+      ```
 
     - Tiếp theo chúng ta sẽ sử dụng lớp `Scanner` để viết method `input()` - lấy các giá trị từ bàn phím gán vào các thuộc tính của đối tượng như sau:
 
-{% highlight java %}
+      ```java
       package entity;
 
       public class Person {
@@ -118,7 +118,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               this.address = scanner.nextLine().trim();
           }
       }
-{% endhighlight %}
+      ```
 
 1. Trong class **entity.Student**:
     - Chúng ta sẽ kế thừa method `display()` từ class `Person` và viết lại mã cho phù hợp như sau:
@@ -142,7 +142,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
 
     - Tương tự với method `input()` như sau:
 
-{% highlight java %}
+      ```java
       package entity;
 
       public class Student extends Person {
@@ -166,7 +166,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               this.mark = Double.parseDouble(scanner.nextLine().trim());
           }
       }
-{% endhighlight %}
+      ```
 
     *Thực hiện tương tự đối với đối tượng `Staff`, trong phạm vi bài viết từ nay về sau, chúng ta sẽ chỉ triển khai mã ví dụ với chỉ đối tượng `Student`.*
 
@@ -174,7 +174,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
 
 Cấu trúc dự án hiện tại:
 
-{% highlight java %}
+```java
 Project/
    └──src/  
       ├──entity
@@ -183,11 +183,11 @@ Project/
       │  └──Student.java
       └──main 
          └──Main.java
-{% endhighlight %}
+```
 
 Sau khi triển khai viết mã cho những method đầu tiên, chúng ta sẽ viết mã kiểm tra xem mã đã viết có chạy đúng như yêu cầu mong muốn hay không, mã kiểm tra sẽ được viết trong class `Main`.
 
-{% highlight java %}
+```java
 package main;
 
 import entity.Student;
@@ -201,11 +201,11 @@ public class Main {
         student.display();               // call method display()
     }
 }
-{% endhighlight %}
+```
 
 Kết quả nhận được:
 
-{% highlight java %}
+```java
 Enter rollNumber: HE150345
 Enter name: Tuan Anh
 Enter gender: true
@@ -216,7 +216,7 @@ Enter address: Ha Noi
 Enter mark: 8.5
 
 |   HE150345 |         Tuan Anh |   Nam |   11/11/1994 |     AnhDTHE150345@fpt.edu.vn |   0973876107 |       Ha Noi |   8.5 |
-{% endhighlight %}
+```
 
 © Copyright
 > ANEST LEARNING  
