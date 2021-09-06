@@ -14,11 +14,9 @@ github: AnestAcademy/Course-Java-OOP/blob/master/06.%20OOP%20in%20Java.md
 
 Lập trình hướng đối tượng **(Object Oriented Programming – OOP)** là một trong những kỹ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn ngữ lập trình hiện nay như Java, PHP, .NET, Ruby, Python... đều hỗ trợ OOP.
 
-
 ## I. What is OOP
 
 **Lập trình hướng đối tượng (OOP)** là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code - trừu tượng hóa các đối tượng trong cuộc sống vào trong code để tương tác - tính toán - xử lý.
-
 
 ## II. OOP in programming
 
@@ -30,25 +28,23 @@ Như trong cuộc sống, bạn chỉ cần có một bản thiết kế nhưng 
 
 Mỗi chiếc ô tô tạo ra được xem là một thực thể (có thực, đã được tạo ra trong thực tế) thể hiện của bản thiết kế.
 
-
 ### 1. Class
 
 Vậy `class` trong Java là gì? Nó được xem như là một bản thiết kế các đối tượng (object) trong lập trình.
 
 Một `class` là một kiểu dữ liệu (data type) bao gồm:
+
 - `thuộc tính (Property - Attribute)`: thể hiện qua biến (variable)
 - `phương thức (Method)`: thể hiện qua hàm (function)
-được định nghĩa từ trước. 
+được định nghĩa từ trước.
 
-Khác với kiểu dữ liệu thông thường (nguyên thủy), một `class` là một đơn vị (trừu tượng) bao gồm sự kết hợp giữa các `thuộc tính` và các `phương thức`. 
-
+Khác với kiểu dữ liệu thông thường (nguyên thủy), một `class` là một đơn vị (trừu tượng) bao gồm sự kết hợp giữa các `thuộc tính` và các `phương thức`.
 
 ### 2. Object
 
 `class` bạn có thể hiểu nó như là khuôn mẫu, bản thiết kế thì `object` là một thực thể thể hiện (instance) dựa trên khuôn mẫu đó. Hay như ở bối cảnh trên, `object` chính là những chiếc ô tô được tạo ra từ bản thiết kế.
 
 > Trong lập trình, mặc định các `object` là khác nhau cho dù có cùng các giá trị `thuộc tính` và `phương thức` giống nhau.
-
 
 ## III. What are the main principles of OOP
 
@@ -71,15 +67,11 @@ Khái niệm cơ bản:
 
 Trong các bài sau, chúng ta sẽ đi sâu và giải thích rõ hơn từng tính chất cụ thể ở trên và thực hiện code ví dụ minh họa - để có thể hiểu được những tính chất trên được thể hiện trong code như thế nào.
 
-
 ## IV. Advantages of object-oriented programming
 
 - Dựa trên nguyên lý kế thừa, trong quá trình tạo - mô tả các `class` có thể loại bỏ những chương trình bị lặp, dư. Và có thể mở rộng khả năng sử dụng các `class` mà không cần thực hiện lại. Tối ưu và tái sử dụng code hiệu quả.
 - Đảm bảo rút ngắn thời gian xây dựng hệ thống và tăng năng suất thực hiện.
 - Sự xuất hiện của 2 khái niệm mới là `class` và `object` chính là đặc trưng của phương pháp lập trình hướng đối tượng. Nó đã giải quyết được các khuyết điểm của phương pháp lập trình hướng cấu trúc để lại. Ngoài ra 2 khái niệm này đã giúp biểu diễn tốt hơn thế giới thực trên máy tính.
-
-
-###
 
 © Copyright
 > ANEST LEARNING  
