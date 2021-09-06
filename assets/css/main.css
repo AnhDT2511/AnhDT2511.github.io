@@ -1584,6 +1584,19 @@ div.tag-cloud {
 }
 
 
+/* = = = = = = = = = = Code = = = = = = = = = = */
+
+code.highlighter-rouge {
+  border: none;
+  line-height: 1.1;
+  background-color: var(--grey5);
+  border-radius: 5px;
+  font-size: 85%;
+  margin: 0;
+  padding: .2em .4em;
+}
+
+
 /* = = = = = = = = = = Post Page  = = = = = = = = = = */
 
 .page-image {
