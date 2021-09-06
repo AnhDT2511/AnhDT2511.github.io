@@ -22,6 +22,7 @@ html {
   --color-text-link: #0969DA;
   --grey1: #5F5E58;
   --grey2: #8D897C;
+  --grey3: #f0f0f0;
   --grey4: #DAD7D2;
   --grey5: #f0f0f0;
   --background: rgb(255 255 255 / 100%);
@@ -59,6 +60,7 @@ html[data-theme="dark"] {
   --color-text-link: #58A6FF;
   --grey1: #B1B1AE;
   --grey2: #959692;
+  --grey3: #21252a;
   --grey4: #21252b;
   --grey5: #343942;
   /* --background: #18191a; */
@@ -513,7 +515,7 @@ table th {
   border: 0;
   padding: 6px 12px;
   text-align: left;
-  background-color: var(--grey5);
+  background-color: var(--grey3);
 }
 
 table th {
