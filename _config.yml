@@ -92,7 +92,7 @@ category_archive:
 sass:
   style: compressed
 
-highlight_theme: syntax-base16.dark # select a theme for the code highlighter
+highlight_theme: syntax-github # select a theme for the code highlighter
 
 plugins:
   - jekyll-paginate
