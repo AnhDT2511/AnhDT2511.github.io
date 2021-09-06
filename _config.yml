@@ -69,7 +69,7 @@ analytics: G-XM9T80G9QJ
 fbadmin: s2.mask
 
 # Paginate
-paginate: 8
+paginate: 6
 paginate_path: 'page:num'
 words_per_minute: 100
 
