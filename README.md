@@ -1,13 +1,14 @@
 # Jekyll theme: Adam Blog 2.0
+
 by [Armando Maynez](https://github.com/amaynez) based on [V1.0](https://github.com/artemsheludko/adam-blog) by [Artem Sheludko](https://github.com/artemsheludko). 
 
 Adam Blog 2.0 is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
 
-### What is Jekyll?
+## What is Jekyll?
 
 Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
 
-### Never Used Jekyll Before?
+## Never Used Jekyll Before?
 
 The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).
 
@@ -30,6 +31,7 @@ Head over to the `_posts` directory to view all the posts that are currently on 
 ## GitHub Pages Installation
 
 ### **STEP 1.**
+
 [Fork this repository](https://github.com/the-mvm/the-mvm.github.io/fork/) into your own account.
 
 #### Using Github Pages
@@ -57,6 +59,7 @@ url: "https://github-username.github.io"
 This will ensure that the the correct relative path is constructed for your assets and posts.
 
 ### **STEP 2.**
+
 Modify ``_config.yml`` file, located in the root directory, with your data.
 
 ```YAML
@@ -99,24 +102,32 @@ paginate: 6 # number of items to show in the main page
 paginate_path: 'page:num'
 words_per_minute: 200 # default words per minute to be considered when calculating the read time of the blog posts
 ```
+
 ### **STEP 3.**
+
 To configure the newsletter, please create an account in https://mailchimp.com, set up a web signup form and paste the link from the embed signup form in the `config.yml` file:
+
 ```YAML
 # Newsletter
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 ```
 
 ### **STEP 4.**
+
 To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) with the same name as your site. Then, in `_config.yml`, edit the `disqus_identifier` value to enable.
+
 ```YAML
 # Disqus
 discus_identifier:  # Add your discus identifier
 comments_curtain: yes # leave empty to show the disqus embed directly
 ```
+
 More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
 
 ### **STEP 5.**
+
 Customize the site colors. Modify `/assets/css/main.css` as follows:
+
 ```CSS
 html {
   --shadow:       rgba(32,30,30,.3);
@@ -148,8 +159,11 @@ html[data-theme="dark"]  {
   --shadow:       rgba(180,179,167,.3);
 }
 ```
+
 ### **STEP 6.**
+
 Customize the site fonts. Modify `/assets/css/main.css` as follows:
+
 ```CSS
 ...
   --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
@@ -162,12 +176,16 @@ Customize the site fonts. Modify `/assets/css/main.css` as follows:
   --font2-bold:       700;
 ...
 ```
+
 If you change the fonts, you need to also modify `/_includes/head.html` as follows:
 Uncomment and change the following line with your new fonts and font weights:
+
 ```HTML
 <link href="https://fonts.googleapis.com/css?family=Lora:400,600|Source+Sans+Pro:200,400,700" rel="stylesheet">
 ```
+
 Delete everything within `<style></style>` just before the line above:
+
 ```HTML
 <style>
 /* latin */
@@ -184,6 +202,7 @@ You will find example posts in your `/_posts/` directory. Go ahead and edit any 
 To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Adam Blog 2.0.
 
 The front matter options for each post are:
+
 ```YAML
 ---
 layout: post #ensure this one stays like this
@@ -199,12 +218,15 @@ github: username/reponame/ # set this to show a github button on the post
 toc: yes # leave empty or erase for no table of contents
 ---
 ```
+
 Edit your blogpost using markdown. [Here is a good guide about how to use it.](https://www.markdownguide.org/)
 
 ### **STEP 7.**
+
 Delete images inside of ``/assets/img/posts/`` and upload your own images for your posts.
 
 ### **STEP 8.**
+
 Make sure Github Pages are turned on in the repository settings, and pointing to the main or master branch (where you cloned this repo).
 
 ## Additional documentation
@@ -268,17 +290,19 @@ Adam Blog 2.0 comes out of the box with [MathJax](https://www.mathjax.org/), whi
 \(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).
 </p>
 ```
-![rendered mathjax](/assets/img/template_screenshots/MathjaxRendered.jpg)
 
+![rendered mathjax](/assets/img/template_screenshots/MathjaxRendered.jpg)
 
 ### Syntax Highlighting
 
 Adam Blog 2.0 provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
 
 You can choose the color theme for the syntax highlight in the `_config.yml` file:
+
 ```YAML
 highlight_theme: syntax-base16.monokai.dark # select a theme for the code highlighter
 ```
+
 See the [highlighter directory](https://github.com/the-mvm/the-mvm.github.io/tree/main/assets/css/highlighter) for reference on the options.
 
 ### Markdown
