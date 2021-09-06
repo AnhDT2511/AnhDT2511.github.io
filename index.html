@@ -11,8 +11,8 @@ layout: home-page
       <a href="{{ post_url }}">
         <p class="css-ckbral">{{ post.category }}</p>
         <p class="css-l1n93i">{% include post_meta.html type="post-card-meta" %}</p>
-        <p class="css-8djvrt">{{ post.title | truncatewords: 10 }}</p>
-        <p class="css-1ohoj94">{{ post.content | inspect | truncatewords: 10 }}</p>
+        <p class="css-8djvrt">{{ post.title | truncatewords: 8 }}</p>
+        <p class="css-1ohoj94">{{ post.content | inspect | truncatewords: 15 }}</p>
       </a>
     </div>
   </li>
