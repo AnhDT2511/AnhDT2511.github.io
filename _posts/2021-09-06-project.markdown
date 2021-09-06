@@ -33,7 +33,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
 1. Trong class **entity.Person**:
     - Chúng ta sẽ viết method `display()` để hiển thị một đối tượng `Person` như sau:
 
-      {% highlight java %}
+{% highlight java %}
       package entity;
 
       public class Person {
@@ -61,11 +61,11 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               );
           }
       }
-      {% endhighlight %}
+{% endhighlight %}
 
     - Tiếp theo chúng ta sẽ sử dụng lớp `Scanner` để viết method `input()` - lấy các giá trị từ bàn phím gán vào các thuộc tính của đối tượng như sau:
 
-      {% highlight java %}
+{% highlight java %}
       package entity;
 
       public class Person {
@@ -118,12 +118,12 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               this.address = scanner.nextLine().trim();
           }
       }
-      {% endhighlight %}
+{% endhighlight %}
 
-2. Trong class **entity.Student**:
+1. Trong class **entity.Student**:
     - Chúng ta sẽ kế thừa method `display()` từ class `Person` và viết lại mã cho phù hợp như sau:
 
-      {% highlight java %}
+      ```java
       package entity;
 
       public class Student extends Person {
@@ -138,11 +138,11 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               System.out.printf("%6s |\n", mark);
           }
       }
-      {% endhighlight %}
+      ```
 
     - Tương tự với method `input()` như sau:
 
-      {% highlight java %}
+{% highlight java %}
       package entity;
 
       public class Student extends Person {
@@ -166,7 +166,7 @@ Sau khi đã xác định cần làm gì, chúng ta sẽ thực hiện viết m�
               this.mark = Double.parseDouble(scanner.nextLine().trim());
           }
       }
-      {% endhighlight %}
+{% endhighlight %}
 
     *Thực hiện tương tự đối với đối tượng `Staff`, trong phạm vi bài viết từ nay về sau, chúng ta sẽ chỉ triển khai mã ví dụ với chỉ đối tượng `Student`.*
 
